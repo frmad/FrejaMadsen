@@ -1,0 +1,60 @@
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #F2F2F2; /* Grey background */
+}
+
+.box {
+    margin: 50px;
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    padding-right: 10px;
+}
+
+.html {width: 90%; background-color: var(--darkgreen-color);}
+.css {width: 80%; background-color: var(--ligthgreen-color);}
+.js {width: 65%; background-color: var(--pink-color);}
+.php {width: 60%; background-color: var(--orange-color);}
+
+
+.responsive {
+    width: 20%;
+    max-width: 400px;
+    height: auto;
+}
+
+p {
+    text-align: justify;
+    color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 20px;
+}
+
+.centered {
+    text-align: center;
+    color: #333;
+}
+
+.centered-orange {
+    color: var(--orange-color);
+    text-align: center;
+}
+
+.centered-orange span {
+    color: #333;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 30px;
+    color: #333;
+}
+
