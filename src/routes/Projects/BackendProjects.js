@@ -44,16 +44,9 @@ const BackendProjects = () => {
                     description="Handel data security"
                     tech="Java"
                     linkText="Link to repport"
-                    //sem3.pdf
+                    linkUrl={sem3} //PDF
+                    external={true}
                 />
-                <a
-                    href={sem3} // Use the imported PDF path
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Link to PDF Document
-                </a>
-
             </div>
         </div>
     );

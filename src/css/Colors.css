@@ -5,4 +5,10 @@
     --pink-color: #ffc9b9;
     --creame-color: #fefee3;
 
+    /* Additional Complementary Colors */
+    --forestgreen-color: #1b4332; /* A deeper, darker green for added depth */
+    --sagegreen-color: #8fbc8f;   /* A soft, muted green that pairs well with both light and dark green */
+    --burntorange-color: #cc704b; /* A deeper, more muted orange that complements the existing orange */
+    --salmonpink-color: #ffb4a2;  /* A richer pink that works well with the existing pink */
+    --mutedbrown-color: #a68a64;  /* A soft brown that adds warmth without being too dark */
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import FrontendProjects from "./Projects/FrontendProjects";
 import BackendProjects from "./Projects/BackendProjects";
+import "../css/Project.css";
 function Projects() {
     return (
         <div>
