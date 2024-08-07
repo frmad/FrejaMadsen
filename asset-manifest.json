@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FrejaMadsen/static/css/main.f02d2ebb.css",
-    "main.js": "/FrejaMadsen/static/js/main.894bbd61.js",
+    "main.css": "/FrejaMadsen/static/css/main.1c1eb676.css",
+    "main.js": "/FrejaMadsen/static/js/main.73cae7bd.js",
     "static/js/453.bcbd48ea.chunk.js": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js",
     "static/media/sem3.pdf": "/FrejaMadsen/static/media/sem3.67308cacc0d7d807c86f.pdf",
     "static/media/Health-HI-FI.png": "/FrejaMadsen/static/media/Health-HI-FI.f0d3ab8c328a4b5a57c3.png",
@@ -9,15 +9,16 @@
     "static/media/Xpence-LO-FI.png": "/FrejaMadsen/static/media/Xpence-LO-FI.a9cb11be5972c99805de.png",
     "static/media/Vroom-LO-FI.png": "/FrejaMadsen/static/media/Vroom-LO-FI.ac6f2a028cc2b612423d.png",
     "static/media/Vroom-HI-FI.png": "/FrejaMadsen/static/media/Vroom-HI-FI.a8b756ebcc5e213cb3e7.png",
+    "static/media/img.png": "/FrejaMadsen/static/media/img.cfac5a10c71b64941966.png",
     "static/media/CV24eng.pdf": "/FrejaMadsen/static/media/CV24eng.0105dac06c4556d6fa8a.pdf",
     "static/media/mig.jpg": "/FrejaMadsen/static/media/mig.6ef8588c9687d8b45cc2.jpg",
     "index.html": "/FrejaMadsen/index.html",
-    "main.f02d2ebb.css.map": "/FrejaMadsen/static/css/main.f02d2ebb.css.map",
-    "main.894bbd61.js.map": "/FrejaMadsen/static/js/main.894bbd61.js.map",
+    "main.1c1eb676.css.map": "/FrejaMadsen/static/css/main.1c1eb676.css.map",
+    "main.73cae7bd.js.map": "/FrejaMadsen/static/js/main.73cae7bd.js.map",
     "453.bcbd48ea.chunk.js.map": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f02d2ebb.css",
-    "static/js/main.894bbd61.js"
+    "static/css/main.1c1eb676.css",
+    "static/js/main.73cae7bd.js"
   ]
 }
