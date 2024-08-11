@@ -8,14 +8,15 @@
 
 .box {
     margin: 50px 12%;
+    font-size: 14px;
 }
 
 .skills {
-    text-align: right; /* Right-align text */
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
-    color: white; /* White text color */
-    padding-right: 10px;
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+    padding-right: 4px;
 }
 
 .html {width: 90%; background-color: var(--darkgreen-color);}
@@ -26,11 +27,11 @@
 .docker {width: 20%; background-color: var(--salmonpink-color);}
 .danish {width: 100%; background-color: var(--forestgreen-color);}
 
-.responsive {
+/*.responsive {
     /*width: 20%;
     max-width: 400px;
     height: auto;*/
-}
+/*}*/
 
 /*p {
     text-align: justify;
@@ -40,27 +41,46 @@
     font-size: 20px;
 }*/
 
-.centered {
+/*.centered {
     color: #333;
     text-align: center;
     font-size: 20px;
     max-width: 1200px;
     margin: 20px auto 40px;
     line-height: 1.6;
-}
+}*/
 
 .centered-orange {
     color: var(--orange-color);
     text-align: center;
+    font-size: 16px;
 }
 
 .centered-orange span {
     color: #333;
+    font-size: 16px;
     font-weight: bold;
 }
 
-h4 {
-    font-size: 30px;
+.headerAbout h4 {
+    font-size: 20px;
     color: #333;
 }
+
+.headerAbout {
+    text-align: center;
+}
+
+.headerAbout p{
+    font-size: 12px;
+    margin: 20px 200px 40px;
+}
+
+.aboutImage {
+    width: 20%;
+    max-width: 200px;
+    height: auto;
+}
+
+
 

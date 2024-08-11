@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import migImage from '../images/mig2.jpg';
 import scrollDown from '../icons/scroll.png';
+import download from '../icons/download.png';
 import '../css/Home.css';
 import resume from "../cv/CV24eng.pdf";
 
@@ -40,7 +41,12 @@ function Home() {
                             develop personally and
                             professionally, always striving to enhance my skills and capabilities.
                         </p>
-                        <a href={resume} download="Freja-resume" className="resume-link">Download Resume</a>
+
+                        <a href={resume} download="Freja-resume" className="resume-link">
+                            <img src={download} alt="Download" className="download-icon"/>
+                            Download Resume
+                        </a>
+
                     </div>
                     <img src={migImage} alt="Picture of me" className="responsive"/>
                 </div>

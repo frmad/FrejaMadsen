@@ -5,7 +5,7 @@ import sem3 from '../../Figmaimages/sem3.pdf';
 const BackendProjects = () => {
     return (
         <div>
-            <h4>Backend Projects</h4>
+            <h4 className="categoryTitle">Backend Projects</h4>
             <div className="row">
                 <ProjectCard
                     title="Recipe page project"

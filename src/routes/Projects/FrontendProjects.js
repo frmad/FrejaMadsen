@@ -10,7 +10,7 @@ import xpenceLofi from '../../Figmaimages/Xpence-LO-FI.png';
 const FrontendProjects = () => {
     return (
         <div>
-            <h4>Frontend Projects</h4>
+            <h4 className="categoryTitle">Frontend Projects</h4>
             <div className="row">
                 <ProjectCard
                     title="React project"

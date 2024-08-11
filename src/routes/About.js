@@ -5,20 +5,24 @@ import migImage from '../images/mig.jpg';
 function About() {
     return (
         <div>
-            <h2>About Me</h2>
+            <div className="projectsPage">
+                <h2>About Me</h2>
+            </div>
 
             {/* About Me Section */}
             <div className="aboutMe" id="about">
-                <img src={migImage} alt="Picture of me" className="responsive"/>
-                <div className="text">
+                <div className="headerAbout">
+                    <img src={migImage} alt="Picture of me" className="aboutImage"/>
                     <h4>Freja Marie Madsen</h4>
                     <p className="centered">
-                        Energetic, dedicated, and organized engineering student with experience in
-                        service, IT, and communication. Background in web editing and a passion for
-                        project management and web development. Skilled in independent work but also
-                        excels in collaborative efforts. Curious and committed to personal and
-                        professional development, as well as striving to enhance my skills.
+                            Energetic, dedicated, and organized engineering student with experience in
+                            service, IT, and communication. Background in web editing and a passion for
+                            project management and web development. Skilled in independent work but also
+                            excels in collaborative efforts. Curious and committed to personal and
+                            professional development, as well as striving to enhance my skills.
                     </p>
+                </div>
+
                     <p className="centered-orange"><span>Mail:</span> frejamadsen1408@gmail.com</p>
                     <p className="centered-orange"><span>Tel:</span> 21854409</p>
 
@@ -56,7 +60,6 @@ function About() {
                         {renderSkill("English", "css", "80%")}
                         {renderSkill("German", "php", "60%")}
                     </div>
-                </div>
             </div>
         </div>
     );

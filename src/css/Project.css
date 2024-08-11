@@ -1,7 +1,18 @@
 
 .about-text {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: #333;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.projectsPage h2 {
     font-size: 20px;
+    text-align: center;
+}
+
+.projectsPage {
+    overflow: hidden;
+    margin: 5px;
 }

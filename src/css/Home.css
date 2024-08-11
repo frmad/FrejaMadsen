@@ -59,7 +59,8 @@
 
 /* Resume Button */
 .resume-link {
-    display: inline-block;
+    display: inline-flex; /* Change to inline-flex to align icon and text properly */
+    align-items: center; /* Align items vertically in the center */
     padding: 10px 20px;
     background-color: var(--ligthgreen-color);
     color: #fff;
@@ -71,13 +72,19 @@
     font-size: 14px;
     box-shadow: 0 5px 20px rgba(76, 149, 108, 0.3);
     margin-bottom: 0;
-    z-index: 1000; /* Ensure the button is on top */
+    z-index: 1000;
     position: relative;
 }
 
 .resume-link:hover {
     background-color: var(--green3);
     transform: translateY(-5px);
+}
+
+.download-icon {
+    width: 20px; /* Set a reasonable size for the icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 8px; /* Space between the text and the icon */
 }
 
 .intro-text {

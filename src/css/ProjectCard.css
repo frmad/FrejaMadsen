@@ -4,7 +4,11 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+.categoryTitle {
+    font-size: 20px;
+    margin-left: 20px;
 }
 
 .column {
@@ -56,7 +60,7 @@ body {
 .githublink:link, .githublink:visited {
     background-color: var(--ligthgreen-color);
     color: white;
-    padding: 14px 25px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -68,3 +72,16 @@ body {
     background-color: var(--darkgreen-color);
     text-decoration: none;
 }
+
+.project-links a {
+    font-size: 12px;
+}
+
+.card p {
+    font-size: 12px;
+}
+
+.card h3 {
+    font-size: 16px;
+}
+
