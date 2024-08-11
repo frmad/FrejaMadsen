@@ -27,18 +27,18 @@
 .danish {width: 100%; background-color: var(--forestgreen-color);}
 
 .responsive {
-    width: 20%;
+    /*width: 20%;
     max-width: 400px;
-    height: auto;
+    height: auto;*/
 }
 
-p {
+/*p {
     text-align: justify;
     color: black;
     padding-left: 3%;
     padding-right: 3%;
     font-size: 20px;
-}
+}*/
 
 .centered {
     color: #333;

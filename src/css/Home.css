@@ -1,4 +1,3 @@
-/* Home.css */
 .home {
     background-color: white;
     position: relative;
@@ -6,28 +5,56 @@
     overflow: hidden;
 }
 
+/* Flex Container for Content */
 .content {
-    position: relative;
-    z-index: 1;
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center;
+    justify-content: space-between; /* Space out items */
+    width: 100%;
+    padding: 0 20px; /* Padding to prevent content touching the edges */
+    gap: 10%; /* Adjust gap between items as needed */
 }
 
-img {
-    border-radius: 50%;
-    width: 550px;
-    height: 550px;
-    object-fit: cover;
+.text-content{
+    margin-left: 5%;
 }
 
 .responsive {
-    width: 12%;
-    max-width: 400px;
-    height: auto;
+    border-radius: 50%; /* Keep the image circular */
+    width: 100%; /* Make the width responsive */
+    max-width: 700px; /* Limit the maximum width */
+    height: auto; /* Maintain the aspect ratio */
+    aspect-ratio: 1 / 1; /* Ensure the height and width are the same */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    margin-right: 15%;
+    z-index: 3;
 }
 
-h2 {
-    color: #333;
+/* Size of image for screens smaller than 1000px */
+@media (max-width: 1500px) {
+    .responsive {
+        max-width: 600px; /* Reduce max size*/
+    }
+}
+
+@media (max-width: 1200px) {
+    .responsive {
+        max-width: 500px; /* Reduce max size*/
+    }
+}
+
+@media (max-width: 1000px) {
+    .responsive {
+        max-width: 450px; /* Reduce max size*/
+    }
+}
+
+
+.homeTitle {
+    color: #ffffff;
     font-size: 50px;
-    margin: 70px;
+    margin: 70px 70px 70px 0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -44,10 +71,11 @@ h2 {
     transition: all 0.3s;
     font-size: 20px;
     box-shadow: 0px 5px 20px rgba(76, 149, 108, 0.3);
+    margin-bottom: 50px;
 }
 
 .resume-link:hover {
-    background-color: var(--darkgreen-color);
+    background-color: var(--green3);
     transform: translateY(-5px);
 }
 
@@ -59,13 +87,78 @@ h2 {
 }
 
 .intro-text {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    color: #333;
-    text-align: center;
+    color: #ffffff;
+    /*text-align: left;*/
     font-size: 20px;
     max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.6;
+    margin: 20px auto 40px;
+    line-height: 1.8;
+}
+
+/*curve*/
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--darkgreen-color);
+}
+
+.curve {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    transform: translate(85%, 60%);
+    background-color: #ffffff;
+}
+
+.curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: var(--darkgreen-color);
+    transform: translate(-4%, 40%);
+    z-index: -1;
+}
+
+/* Additional section below the wave */
+.additional-content {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.additional-content h3 {
+    font-size: 28px;
+}
+
+.additional-content p {
+    font-size: 16px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 1000px) {
+    .flex-container {
+        flex-direction: column;
+    }
 }
