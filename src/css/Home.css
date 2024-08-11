@@ -179,15 +179,45 @@ section {
     height: auto;
 }
 
-/*Row flexbox*/
+/* Flex Container settings */
 .flex-container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items at the top */
+    justify-content: center; /* Center the flex container horizontally */
+    margin: 0 auto; /* Center the container */
+    padding: 10px;
+    gap: 20px; /* Adjust space between items */
+    max-width: 1200px; /* Optional: Set a max-width to control size */
+    width: 100%; /* Ensure it takes the full width available */
 }
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
+/* Flex Item settings */
+.flex-container > div {
+    flex: 1 1 30%; /* Adjust base size for items */
+    margin: 0; /* Remove default margin for consistent alignment */
+    box-sizing: border-box; /* Include padding and borders in width/height */
+    display: flex;
+    flex-direction: column; /* Ensure content is stacked vertically */
+    align-items: center; /* Center content horizontally within the flex item */
+}
+
+/* Header and text content inside flex items */
+.flex-container h4 {
+    text-align: center; /* Center the header text */
+    font-size: 16px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Add some space below the header */
+}
+
+.flex-container p {
+    text-align: left;
+    font-size: 14px; /* Adjust font size as needed */
+    max-width: 365px; /* Set a max-width to ensure readability */
+    margin: 0; /* Remove margin for consistent alignment */
+    line-height: 1.5; /* Adjust line height for readability */
+}
+
+/* Responsive layout for the flex container */
 @media (max-width: 1000px) {
     .flex-container {
         flex-direction: column;
