@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FrejaMadsen/static/css/main.1c619c22.css",
-    "main.js": "/FrejaMadsen/static/js/main.548008ae.js",
+    "main.css": "/FrejaMadsen/static/css/main.a77c0c39.css",
+    "main.js": "/FrejaMadsen/static/js/main.9a38ba8d.js",
     "static/js/453.bcbd48ea.chunk.js": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js",
     "static/media/sem3.pdf": "/FrejaMadsen/static/media/sem3.67308cacc0d7d807c86f.pdf",
     "static/media/Health-HI-FI.png": "/FrejaMadsen/static/media/Health-HI-FI.f0d3ab8c328a4b5a57c3.png",
@@ -14,12 +14,12 @@
     "static/media/CV24eng.pdf": "/FrejaMadsen/static/media/CV24eng.0105dac06c4556d6fa8a.pdf",
     "static/media/mig.jpg": "/FrejaMadsen/static/media/mig.6ef8588c9687d8b45cc2.jpg",
     "index.html": "/FrejaMadsen/index.html",
-    "main.1c619c22.css.map": "/FrejaMadsen/static/css/main.1c619c22.css.map",
-    "main.548008ae.js.map": "/FrejaMadsen/static/js/main.548008ae.js.map",
+    "main.a77c0c39.css.map": "/FrejaMadsen/static/css/main.a77c0c39.css.map",
+    "main.9a38ba8d.js.map": "/FrejaMadsen/static/js/main.9a38ba8d.js.map",
     "453.bcbd48ea.chunk.js.map": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c619c22.css",
-    "static/js/main.548008ae.js"
+    "static/css/main.a77c0c39.css",
+    "static/js/main.9a38ba8d.js"
   ]
 }
