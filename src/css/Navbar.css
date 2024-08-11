@@ -1,7 +1,7 @@
 .top-navigation {
     background-color: var(--darkgreen-color);
     padding: 20px;
-    font-size: 24px; /* Increased font size */
+    font-size: 16px; /* Increased font size */
     z-index: 1000; /* Ensure it appears above other content */
     position: relative;
 }

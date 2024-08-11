@@ -1,9 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import migImage from '../images/mig2.jpg';
+import scrollDown from '../icons/scroll.png';
 import '../css/Home.css';
 import resume from "../cv/CV24eng.pdf";
 
 function Home() {
+    useEffect(() => {
+        const scrollButton = document.getElementById('scrollButton');
+        const additionalContent = document.querySelector('.additional-content');
+
+        // Define the scroll function
+        const handleScroll = () => {
+            additionalContent.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        };
+
+        // Add event listener
+        scrollButton.addEventListener('click', handleScroll);
+
+        // Cleanup event listener on component unmount
+        return () => {
+            scrollButton.removeEventListener('click', handleScroll);
+        };
+    }, []);
+
     return (
         <div className="home">
             <section>
@@ -27,7 +49,12 @@ function Home() {
 
             {/* Additional content section below the wave */}
             <div className="additional-content">
-                <h3>About Me</h3>
+                <div className="moreInfoText">
+                    <h3>Read more about me here</h3>
+                    <button id="scrollButton" className="scroll-button">
+                        <img src={scrollDown} alt="Scroll down" className="scroll-icon"/>
+                    </button>
+                </div>
                 <p>
                     This is some additional content that appears below the wave. You can include more details about
                     yourself or any other information that you want to highlight here.
