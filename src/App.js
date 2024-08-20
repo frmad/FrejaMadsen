@@ -5,6 +5,8 @@ import About from './routes/About';
 import Projects from './routes/Projects';
 import Home from './routes/Home';
 import Recipes from "./routes/Projects/RecipesProject/Recipes";
+import Contact from "./routes/Contact";
+import Skills from "./routes/Skills";
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/recipes" element={<Recipes />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/skills" element={<Skills />} />
             </Routes>
         </div>
     );

@@ -1,18 +1,32 @@
 
-.about-text {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #333;
-    font-size: 12px;
-    margin-left: 20px;
-}
-
-.projectsPage h2 {
-    font-size: 20px;
-    text-align: center;
-}
-
 .projectsPage {
     overflow: hidden;
     margin: 5px;
 }
+
+.projectsPage p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--green-black);
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.projectsPage p:first-of-type {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.projectsPage .section-title {
+    font-size: 24px;
+    color: var(--green-black);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.back, .front {
+    margin-top: 50px;
+}
+
+

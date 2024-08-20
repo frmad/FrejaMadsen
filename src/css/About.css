@@ -17,39 +17,55 @@
     min-width: 200px; /* Minimum width for each skill item */
 }
 
+/* Keyframes for animating the skill bars */
+@keyframes expandWidth {
+    from {
+        width: 0%;
+    }
+    to {
+        width: var(--skill-width, 0%);
+    }
+}
+
+/* Skill bars container */
 .skills {
     text-align: right;
     padding-top: 4px;
     padding-bottom: 4px;
     color: white;
     padding-right: 4px;
+    animation: expandWidth 1s ease-out forwards;
+    /* Set the default width to 0% for animation to work */
+    width: 0%;
+    height: 20px;
 }
 
-.html {width: 90%; background-color: var(--darkgreen-color);}
-.css {width: 80%; background-color: var(--ligthgreen-color);}
-.js {width: 65%; background-color: var(--pink-color);}
-.php {width: 60%; background-color: var(--orange-color);}
-.python {width: 30%; background-color: var(--burntorange-color);}
-.docker {width: 20%; background-color: var(--salmonpink-color);}
-.danish {width: 100%; background-color: var(--forestgreen-color);}
+/* Specific skill bars with their widths */
+.html {background-color: var(--darkgreen-color); --skill-width: 90%;}
+.css {background-color: var(--green2); --skill-width: 80%;}
+.js {background-color: var(--green3); --skill-width: 65%;}
+.php {background-color: var(--green4); --skill-width: 60%;}
+.python {background-color: var(--green5); --skill-width: 30%;}
+.docker {background-color: var(--ligth-yellow); --skill-width: 20%;}
+.danish {background-color: var(--forestgreen-color); --skill-width: 100%;}
 
 .aboutMeText {
     color: #333;
     text-align: left;
     font-size: 12px;
     margin: 20px auto 40px;
-    line-height: 1.6;
+    line-height: 1.2;
 }
 
 .centered-orange {
-    color: var(--orange-color);
+    color: var(--orange-brown-color);
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .centered-orange span {
     color: #333;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -71,4 +87,8 @@
     width: 20%;
     max-width: 200px;
     height: auto;
+}
+
+.header {
+    margin-left: 70px;
 }

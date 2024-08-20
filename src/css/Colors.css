@@ -1,12 +1,20 @@
 :root {
     --darkgreen-color: #004225;
+    --green2: #2B6536;
     --green3: #558A45;
-    --ligthgreen-color: #FFB000;
-    --orange-color: #d68c45;
-    --pink-color: #ffc9b9;
-    --creame-color: #fefee3;
+    --green4: #85AF53;
+    --green5: #BCD461;
+    --peach: #FFCF9D;
+    --ligth-yellow: #FEC850;
+    --yellow-color: #FFB000;
 
     /* Additional Complementary Colors */
+    --green-black: #012622;
+    --brown: #A68557;
+    --ligth-brown: #CAB291;
+    --orange-brown-color: #d68c45;
+    --pink-color: #ffc9b9;
+    --creame-color: #fefee3;
     --forestgreen-color: #1b4332; /* A deeper, darker green for added depth */
     --sagegreen-color: #8fbc8f;   /* A soft, muted green that pairs well with both light and dark green */
     --burntorange-color: #cc704b; /* A deeper, more muted orange that complements the existing orange */

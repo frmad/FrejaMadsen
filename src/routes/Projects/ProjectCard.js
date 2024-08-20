@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../../css/ProjectCard.css"; // You can create specific CSS for this component if needed
+import "../../css/ProjectCard.css"; // Ensure this path is correct
 
 const ProjectCard = ({ title, description, tech, linkText, linkUrl, external, imageUrl, figmaUrlLofi, figmaUrlHifi }) => {
     return (
         <div className="column">
             <div className="card">
-                <h3>{title}</h3>
-                {imageUrl && <img src={imageUrl} alt={`Image for ${title}`} className="project-image" />}
-                <p>{description}</p>
-                <p>{tech}</p>
+                <h3 className="card-title">{title}</h3>
+                {imageUrl && <img src={imageUrl} alt={`Image for ${title}`} className="card-image" />}
+                <p className="card-description">{description}</p>
+                <p className="card-tech">{tech}</p>
                 <div className="project-links">
                     {linkUrl && (
                         external ? (
