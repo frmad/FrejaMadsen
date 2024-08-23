@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/FrejaMadsen/static/css/main.9f76ca55.css",
-    "main.js": "/FrejaMadsen/static/js/main.b9ec547a.js",
+    "main.css": "/FrejaMadsen/static/css/main.848a2849.css",
+    "main.js": "/FrejaMadsen/static/js/main.facc6c3e.js",
     "static/js/453.bcbd48ea.chunk.js": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js",
     "static/media/sem3.pdf": "/FrejaMadsen/static/media/sem3.67308cacc0d7d807c86f.pdf",
+    "static/media/mig3.png": "/FrejaMadsen/static/media/mig3.e2a8e0da4851a253ba5c.png",
     "static/media/Health-HI-FI.png": "/FrejaMadsen/static/media/Health-HI-FI.f0d3ab8c328a4b5a57c3.png",
     "static/media/mig2.jpg": "/FrejaMadsen/static/media/mig2.97a243613af05e5716ec.jpg",
     "static/media/Bachelor.png": "/FrejaMadsen/static/media/Bachelor.87684e47fd005cf65edd.png",
@@ -12,14 +13,13 @@
     "static/media/Vroom-HI-FI.png": "/FrejaMadsen/static/media/Vroom-HI-FI.a8b756ebcc5e213cb3e7.png",
     "static/media/img.png": "/FrejaMadsen/static/media/img.cfac5a10c71b64941966.png",
     "static/media/CV24eng.pdf": "/FrejaMadsen/static/media/CV24eng.0105dac06c4556d6fa8a.pdf",
-    "static/media/mig.jpg": "/FrejaMadsen/static/media/mig.6ef8588c9687d8b45cc2.jpg",
     "index.html": "/FrejaMadsen/index.html",
-    "main.9f76ca55.css.map": "/FrejaMadsen/static/css/main.9f76ca55.css.map",
-    "main.b9ec547a.js.map": "/FrejaMadsen/static/js/main.b9ec547a.js.map",
+    "main.848a2849.css.map": "/FrejaMadsen/static/css/main.848a2849.css.map",
+    "main.facc6c3e.js.map": "/FrejaMadsen/static/js/main.facc6c3e.js.map",
     "453.bcbd48ea.chunk.js.map": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f76ca55.css",
-    "static/js/main.b9ec547a.js"
+    "static/css/main.848a2849.css",
+    "static/js/main.facc6c3e.js"
   ]
 }
