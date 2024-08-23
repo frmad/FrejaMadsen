@@ -40,14 +40,14 @@
 .js {background-color: var(--green3); --skill-width: 65%;}
 .php {background-color: var(--green4); --skill-width: 60%;}
 .python {background-color: var(--green5); --skill-width: 30%;}
-.docker {background-color: var(--light-yellow); --skill-width: 20%;}
+.docker {background-color: var(--ligth-yellow); --skill-width: 20%;}
 .danish {background-color: var(--forestgreen-color); --skill-width: 100%;}
 
 /* About Me section styles */
 .aboutMeText {
     color: #333;
     text-align: left;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1.6;
 }
 
@@ -56,6 +56,7 @@
     text-align: center;
     font-size: 14px;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .centered-orange span {
@@ -86,7 +87,12 @@
 /* Blob container and related styles */
 .blob-container {
     position: relative; /* To position .blob and .blobBack relative to this container */
-    display: inline-block; /* Aligns blobs side-by-side if needed */
+    display: flex; /* Use flexbox to center items */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 150px; /* Ensure the container height matches the blobs */
+    width: 150px; /* Ensure the container width matches the blobs */
+    margin-left: 25%;
 }
 
 .blob {
@@ -94,8 +100,6 @@
     height: 150px; /* Height of the blob */
     width: 150px; /* Width of the blob */
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important; /* Smooth, uneven radius for the blob shape */
-    margin: 20px; /* Margin around the blob */
-    display: inline-block; /* Ensures it behaves more like a "blob" */
     position: relative; /* Positioned relative to the .blob-container */
     z-index: 2; /* Above the shadow */
     overflow: hidden; /* Ensures the image does not overflow outside the blob shape */
@@ -114,14 +118,15 @@
 
 .blob-image {
     position: absolute; /* Position the image relative to the .blob-container */
-    top: 55%; /* Center vertically */
-    left: 50%; /* Center horizontally */
+    top: 65%; /* Center vertically */
+    left: 55%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Adjust the image's center to match the blob's center */
-    width: 60%; /* Adjust image size (can be modified to fit your needs) */
-    height: 60%; /* Maintain image aspect ratio */
+    height: 140px; /* Same height as the blob */
+    width: 140px; /* Same width as the blob */
     border-radius: 50%; /* Circular image to match the shape */
     z-index: 3; /* Above the blobs */
     object-fit: cover;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important;
 }
 
 /* Flex container for side-by-side layout */
@@ -158,4 +163,9 @@
     width: 20%;
     max-width: 200px;
     height: auto;
+}
+
+.aboutMe {
+    padding-right: 40px;
+    padding-left: 40px;
 }

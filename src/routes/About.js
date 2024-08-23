@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/About.css';
-import migImage from '../images/mig.jpg';
+import migImage from '../images/mig3.png';
 import Wave from '../routes/Elements/Wave';
 
 function About() {
@@ -50,6 +50,11 @@ function About() {
                     </div>
 
                     <div className="infoSection">
+                        <div className="blob-container">
+                            <div className="blobBack"></div>
+                            <div className="blob"></div>
+                            <img src={migImage} alt="Picture of me" className="blob-image"/>
+                        </div>
                         <p className="centered-orange"><span>Mail:</span> frejamadsen1408@gmail.com</p>
                         <p className="centered-orange"><span>Tel:</span> 21854409</p>
                     </div>
