@@ -1,0 +1,18 @@
+/* Top wave style */
+.wave-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 230px;
+    margin-top: -3px;
+}
+
+/* Content between the waves */
+.wave-content {
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+    text-align: center;
+}

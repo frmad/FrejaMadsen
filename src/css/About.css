@@ -1,9 +1,4 @@
 /* Container for skill bars */
-.container {
-    width: 100%; /* Full width */
-    background-color: #F2F2F2; /* Grey background */
-}
-
 .box {
     display: flex; /* Use flexbox */
     flex-wrap: wrap; /* Wrap items to the next line if needed */
@@ -35,8 +30,7 @@
     color: white;
     padding-right: 4px;
     animation: expandWidth 1s ease-out forwards;
-    /* Set the default width to 0% for animation to work */
-    width: 0%;
+    width: 0%; /* Set the default width to 0% for animation to work */
     height: 20px;
 }
 
@@ -46,21 +40,22 @@
 .js {background-color: var(--green3); --skill-width: 65%;}
 .php {background-color: var(--green4); --skill-width: 60%;}
 .python {background-color: var(--green5); --skill-width: 30%;}
-.docker {background-color: var(--ligth-yellow); --skill-width: 20%;}
+.docker {background-color: var(--light-yellow); --skill-width: 20%;}
 .danish {background-color: var(--forestgreen-color); --skill-width: 100%;}
 
+/* About Me section styles */
 .aboutMeText {
     color: #333;
     text-align: left;
     font-size: 12px;
-    margin: 20px auto 40px;
-    line-height: 1.2;
+    line-height: 1.6;
 }
 
 .centered-orange {
-    color: var(--orange-brown-color);
+    color: var(--yellow-color);
     text-align: center;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .centered-orange span {
@@ -69,26 +64,98 @@
     font-weight: bold;
 }
 
+/* Header styles */
+.headerAbout {
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: -30px;
+}
+
 .headerAbout h4 {
     font-size: 20px;
-    color: #333;
+    color: var(--green-black);
+    margin-top: 60px;
 }
 
-.headerAbout {
-    text-align: center;
+.headerAbout h5 {
+    font-size: 18px;
+    color: var(--yellow-color);
+    margin-top: -15px;
 }
 
-.headerAbout p {
-    font-size: 12px;
-    margin: 20px 200px 40px;
+/* Blob container and related styles */
+.blob-container {
+    position: relative; /* To position .blob and .blobBack relative to this container */
+    display: inline-block; /* Aligns blobs side-by-side if needed */
+}
+
+.blob {
+    background-color: var(--darkgreen-color);
+    height: 150px; /* Height of the blob */
+    width: 150px; /* Width of the blob */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important; /* Smooth, uneven radius for the blob shape */
+    margin: 20px; /* Margin around the blob */
+    display: inline-block; /* Ensures it behaves more like a "blob" */
+    position: relative; /* Positioned relative to the .blob-container */
+    z-index: 2; /* Above the shadow */
+    overflow: hidden; /* Ensures the image does not overflow outside the blob shape */
+}
+
+.blobBack {
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly transparent black for shadow effect */
+    height: 150px; /* Same height as the blob */
+    width: 150px; /* Same width as the blob */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important; /* Smooth, uneven radius */
+    position: absolute; /* Position absolute to overlap with the .blob */
+    top: 10px; /* Slight offset to create shadow effect */
+    left: 30px; /* Slight offset to create shadow effect */
+    z-index: 1; /* Below the blob */
+}
+
+.blob-image {
+    position: absolute; /* Position the image relative to the .blob-container */
+    top: 55%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust the image's center to match the blob's center */
+    width: 60%; /* Adjust image size (can be modified to fit your needs) */
+    height: 60%; /* Maintain image aspect ratio */
+    border-radius: 50%; /* Circular image to match the shape */
+    z-index: 3; /* Above the blobs */
+    object-fit: cover;
+}
+
+/* Flex container for side-by-side layout */
+.flexcontainerAbout {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if there's not enough space */
+    justify-content: space-between; /* Distributes space between items */
+    align-items: flex-start; /* Aligns items to the top of the container */
+    gap: 20px; /* Space between items */
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/* Flex item for text section */
+.textSection {
+    flex: 2; /* Takes up more space */
+    max-width: 65%; /* Adjust as needed */
+}
+
+/* Flex item for contact info section */
+.infoSection {
+    flex: 1; /* Takes up less space */
+    max-width: 30%; /* Adjust as needed */
+}
+
+/* Header styles */
+.header {
+    margin-top: 100px;
+    margin-left: 70px;
+    color: var(--green-black);
 }
 
 .aboutImage {
     width: 20%;
     max-width: 200px;
     height: auto;
-}
-
-.header {
-    margin-left: 70px;
 }

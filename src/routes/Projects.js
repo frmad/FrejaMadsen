@@ -3,6 +3,7 @@ import ScrollReveal from 'scrollreveal';
 import FrontendProjects from "./Projects/FrontendProjects";
 import BackendProjects from "./Projects/BackendProjects";
 import "../css/Project.css";
+import Wave from '../routes/Elements/Wave';
 
 function Projects() {
     const frontendRef = useRef(null);
@@ -29,19 +30,23 @@ function Projects() {
     }, []);
 
     return (
-        <div className="projectsPage">
-            <div className="intro">
-                <h2 className="section-title">Project Portfolio</h2>
-                <p className="about-text">Welcome to my portfolio of projects!</p>
-                <p className="about-text">Below, you'll discover a curated selection of projects that I've had the pleasure of contributing to.</p>
-                <p className="about-text">Feel free to explore each project by clicking on the links provided.</p>
-            </div>
+        <div>
+            <Wave/>
+            <div className="projectsPage">
+                <div className="intro">
+                    <h2 className="section-title">Project Portfolio</h2>
+                    <p className="about-text">Welcome to my portfolio of projects!</p>
+                    <p className="about-text">Below, you'll discover a curated selection of projects that I've had the
+                        pleasure of contributing to.</p>
+                    <p className="about-text">Feel free to explore each project by clicking on the links provided.</p>
+                </div>
 
-            <div className="front" ref={frontendRef}>
-                <FrontendProjects />
-            </div>
-            <div className="back" ref={backendRef}>
-                <BackendProjects />
+                <div className="front" ref={frontendRef}>
+                    <FrontendProjects/>
+                </div>
+                <div className="back" ref={backendRef}>
+                    <BackendProjects/>
+                </div>
             </div>
         </div>
     );

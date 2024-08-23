@@ -1,9 +1,12 @@
 import React from "react";
+import Wave from '../routes/Elements/Wave';
+
 
 function Skills() {
 
     return (
         <div>
+            <Wave/>
             {/* Technical Skills */}
             <h4 className="header">Technical Skills</h4>
             <div className="box">

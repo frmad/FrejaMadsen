@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import '../css/Contact.css';
+import Wave from '../routes/Elements/Wave';
+import emailjs from "@emailjs/browser";
 
-function Contact() {
+const Contact = () => {
+    const form = useRef();
     const [formData, setFormData] = useState({
-        name: '',
-        email: '',
+        to_name: '',
+        from_email: '',
         message: ''
     });
 
@@ -18,38 +21,55 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission logic here
-        alert('Form submitted!');
+
+        emailjs.sendForm(
+            "service_0xjqsib", // Your EmailJS service ID
+            "template_xokcfcc", // Your EmailJS template ID
+            form.current, // Reference to the form
+            "StGjl_JgAL9BqR1od" // Your EmailJS public key
+        )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    alert("Message sent successfully!");
+                },
+                (error) => {
+                    console.log(error.text);
+                    alert("An error occurred, please try again.");
+                }
+            );
     };
 
     return (
         <div className="contactPage">
-            <div className="header">
-                <h2>Contact</h2>
-            </div>
+            <Wave />
+
+            {/*<div className="header">
+                <h2>Contact Me</h2>
+            </div>*/}
 
             <div className="contactContent">
                 <div className="contactForm">
                     <h3>Get in Touch</h3>
-                    <form onSubmit={handleSubmit}>
+                    <form ref={form} onSubmit={handleSubmit}>
                         <div className="formGroup">
-                            <label htmlFor="name">Name:</label>
+                            <label htmlFor="to_name">Name:</label>
                             <input
                                 type="text"
-                                id="name"
-                                name="name"
-                                value={formData.name}
+                                id="to_name"
+                                name="to_name"
+                                value={formData.to_name}
                                 onChange={handleChange}
                                 required
                             />
                         </div>
                         <div className="formGroup">
-                            <label htmlFor="email">Email:</label>
+                            <label htmlFor="from_email">Email:</label>
                             <input
                                 type="email"
-                                id="email"
-                                name="email"
-                                value={formData.email}
+                                id="from_email"
+                                name="from_email"
+                                value={formData.from_email}
                                 onChange={handleChange}
                                 required
                             />
