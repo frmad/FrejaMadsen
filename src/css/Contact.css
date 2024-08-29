@@ -29,6 +29,14 @@
     margin-left: 20px;
 }
 
+@media (min-width: 1024px) {
+    .contactForm {
+        flex: 1;
+        max-width: 600px;
+        margin-left: 100px;
+    }
+}
+
 .contactForm h3 {
     margin-bottom: 10px;
     color: var(--green-black);

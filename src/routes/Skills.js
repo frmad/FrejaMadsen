@@ -10,34 +10,34 @@ function Skills() {
             {/* Technical Skills */}
             <h4 className="header">Technical Skills</h4>
             <div className="box">
-                {renderSkill("HTML", "html", "90%")}
-                {renderSkill("CSS", "css", "80%")}
-                {renderSkill("Java", "css", "80%")}
-                {renderSkill("JavaScript", "js", "65%")}
-                {renderSkill("PHP", "php", "60%")}
-                {renderSkill("React", "php", "60%")}
-                {renderSkill("SQL", "php", "60%")}
-                {renderSkill("Python", "python", "30%")}
-                {renderSkill("MongoDB", "python", "30%")}
-                {renderSkill("Docker", "docker", "20%")}
-                {renderSkill("Kubernetes", "docker", "20%")}
-                {renderSkill("CI/CD", "docker", "20%")}
+                {renderSkill("HTML", "good", "70%")}
+                {renderSkill("CSS", "good", "70%")}
+                {renderSkill("Java", "okay", "60%")}
+                {renderSkill("React", "okay", "60%")}
+                {renderSkill("SQL", "know", "50%")}
+                {renderSkill("JavaScript", "notGood", "30%")}
+                {renderSkill("PHP", "notGood", "30%")}
+                {renderSkill("Python", "notGood", "30%")}
+                {renderSkill("MongoDB", "notGood", "30%")}
+                {renderSkill("Docker", "bad", "20%")}
+                {renderSkill("Kubernetes", "bad", "20%")}
+                {renderSkill("CI/CD", "bad", "20%")}
             </div>
 
             {/* Semi-technical Skills */}
             <h4 className="header">Semi-technical Skills</h4>
             <div className="box">
-                {renderSkill("Word", "html", "90%")}
-                {renderSkill("Excel", "css", "80%")}
-                {renderSkill("Powerpoint", "css", "80%")}
+                {renderSkill("Word", "full", "100%")}
+                {renderSkill("Excel", "better", "80%")}
+                {renderSkill("Powerpoint", "better", "80%")}
             </div>
 
             {/* Language Skills */}
             <h4 className="header">Language Skills</h4>
             <div className="box">
-                {renderSkill("Danish", "danish", "100%")}
-                {renderSkill("English", "css", "80%")}
-                {renderSkill("German", "php", "60%")}
+                {renderSkill("Danish", "full", "100%")}
+                {renderSkill("English", "better", "80%")}
+                {renderSkill("German", "notGood", "30%")}
             </div>
         </div>
     );
@@ -47,7 +47,7 @@ function renderSkill(name, className, level) {
     return (
         <div className="skill">
             <p>{name}</p>
-            <div className="container">
+            <div className="containerSkills">
                 <div className={`skills ${className}`}>{level}</div>
             </div>
         </div>

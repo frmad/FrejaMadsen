@@ -47,6 +47,11 @@
     text-decoration: underline;
 }
 
+.topnav-right li a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .topnav-right li a:visited {
     color: white;
 }

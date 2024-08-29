@@ -7,6 +7,12 @@
     font-size: 14px;
 }
 
+.containerSkills {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 .box .skill {
     flex: 1 1 30%; /* Flex-grow, flex-shrink, and basis */
     min-width: 200px; /* Minimum width for each skill item */
@@ -30,18 +36,20 @@
     color: white;
     padding-right: 4px;
     animation: expandWidth 1s ease-out forwards;
-    width: 0%; /* Set the default width to 0% for animation to work */
-    height: 20px;
+    height: 25px;
+    border-radius: 5px;
 }
 
 /* Specific skill bars with their widths */
-.html {background-color: var(--darkgreen-color); --skill-width: 90%;}
-.css {background-color: var(--green2); --skill-width: 80%;}
-.js {background-color: var(--green3); --skill-width: 65%;}
-.php {background-color: var(--green4); --skill-width: 60%;}
-.python {background-color: var(--green5); --skill-width: 30%;}
-.docker {background-color: var(--ligth-yellow); --skill-width: 20%;}
-.danish {background-color: var(--forestgreen-color); --skill-width: 100%;}
+.full {background-color: var(--forestgreen-color); --skill-width: 100%;}
+.excellent {background-color: var(--darkgreen-color); --skill-width: 90%;}
+.better {background-color: var(--green2); --skill-width: 80%;}
+.good {background-color: var(--green3); --skill-width: 70%;}
+.okay {background-color: var(--green4); --skill-width: 60%;}
+.know {background-color: var(--green5); --skill-width: 50%;}
+.notGood {background-color: var(--yellow-color); --skill-width: 30%;}
+.bad {background-color: var(--ligth-yellow); --skill-width: 20%;}
+
 
 /* About Me section styles */
 .aboutMeText {
@@ -54,14 +62,13 @@
 .centered-orange {
     color: var(--yellow-color);
     text-align: center;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 16px;
     margin-top: 30px;
 }
 
 .centered-orange span {
     color: #333;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -79,9 +86,10 @@
 }
 
 .headerAbout h5 {
-    font-size: 18px;
+    font-size: 24px;
     color: var(--yellow-color);
     margin-top: -15px;
+    margin-bottom: 35px;
 }
 
 /* Blob container and related styles */

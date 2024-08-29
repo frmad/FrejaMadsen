@@ -34,10 +34,12 @@ function Home() {
                     <div className="text-content">
                         <h2 className="homeTitle">Welcome to My Portfolio!</h2>
                         <p className="intro-text">
-                            Hello and welcome! I'm a 22-year-old woman driven by energy, commitment, and a structured
-                            approach to everything I do. With a diverse background in service, IT, and communication, I
-                            bring a wealth of experience in web editing and a passion for leadership and marketing. Curiosity drives me to constantly
-                            develop personally and professionally, always striving to enhance my skills and capabilities.
+                            Hello and welcome! I'm a 23-year-old energetic, dedicated,
+                            and highly organized Full Stack IT Developer with a robust background in service,
+                            IT, and communication. My experience spans web editing, leadership, and customer interaction,
+                            equipping me with a strong foundation in both independent and collaborative work environments.
+                            I am driven by curiosity and a desire for continuous personal and professional development,
+                            always striving to enhance my skills and capabilities.
                         </p>
 
                         <a href={resume} download="Freja-resume" className="resume-link">
@@ -65,17 +67,34 @@ function Home() {
                 <div className="flex-container">
                     <div>
                         <h4>Problem Solving</h4>
-                        <p>I thrive in environments where creative problem solving is key. My background in software engineering has instilled in me a passion for tackling complex technical challenges with innovative solutions. Whether it's designing a new feature, debugging a tricky issue, or optimizing performance, I enjoy the process of finding elegant and effective solutions to technical problems. The thrill of transforming an idea into a functional product or improving an existing system is what drives my enthusiasm for technology.</p>
+                        <p>I thrive in environments where creative problem solving is crucial.
+                            My background in software engineering has equipped me with the skills
+                            to tackle complex technical challenges with innovative solutions.
+                            Whether it's developing a new feature, debugging intricate issues,
+                            or optimizing performance, I enjoy the process of finding elegant and
+                            effective solutions. My enthusiasm for technology is driven by the excitement
+                            of transforming ideas into functional products and continuously improving
+                            systems based on user feedback.</p>
                     </div>
 
                     <div>
                         <h4>Project Management</h4>
-                        <p>Collaboration and teamwork are at the heart of what I enjoy most in my work. I find immense satisfaction in working with diverse teams to achieve common goals. Whether leading a project or contributing as a team member, I value the exchange of ideas, the synergy of collective effort, and the opportunity to learn from others. My experience in customer service and project management has honed my ability to communicate effectively, coordinate tasks, and ensure that projects run smoothly and meet objectives.</p>
+                        <p>Project management is one of my main interests. During my studies in Software Engineering, I
+                            discovered how much I enjoy organizing and leading projects. Coordinating tasks, setting
+                            goals, and collaborating with teams to achieve results is something I find incredibly
+                            exciting. My coursework in project management has equipped me with the skills to effectively
+                            manage teams and track projects. I thrive on the challenge of keeping projects on track and
+                            ensuring everything runs smoothly, and I am eager to pursue a career where I can apply and
+                            develop these skills further.</p>
                     </div>
 
                     <div>
                         <h4>Continuous Learning and Development</h4>
-                        <p>I am passionate about continuous learning and personal growth. In the fast-evolving fields of technology and design, staying updated with the latest trends and advancements is crucial. I love diving into new technologies, exploring emerging tools, and expanding my skill set. This drive for learning not only keeps me engaged and motivated but also enables me to bring fresh perspectives and innovative approaches to my work.</p>
+                        <p>Continuous learning is a core part of my personal and professional growth. I am passionate
+                            about exploring new technologies, tools, and techniques to continually expand my skill set.
+                            This commitment to learning allows me to approach challenges with fresh perspectives and
+                            innovative solutions, enhancing my ability to contribute effectively to any team or
+                            project.</p>
                     </div>
                 </div>
             </div>

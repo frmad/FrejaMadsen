@@ -5,46 +5,46 @@ import sem3 from '../../Figmaimages/sem3.pdf';
 const BackendProjects = () => {
     return (
         <div>
-            <h4 className="categoryTitle">Backend Projects</h4>
+            <h4 className="categoryTitle">Backend-Based Projects</h4>
             <div className="row">
                 <ProjectCard
-                    title="Recipe page project"
-                    description="I created this project to keep track of my favorite recipes"
-                    tech="Developed using React JS"
+                    title="Recipe Page Project"
+                    description="A simple website to keep track of my favorite recipes"
+                    tech="Developed with React JS, CSS, and a local database"
                     linkText="Open Recipe Project"
-                    linkUrl="/recipes"
+                    linkUrl="https://frmad.github.io/Recipe-application"
                     external={false}
                 />
                 <ProjectCard
-                    title="Software maintenance project"
-                    description="Improve the maintainability of the provided code"
-                    tech="Java"
-                    linkText="Link to Git repository"
+                    title="Software Maintenance Project"
+                    description="Enhancement of the maintainability of the provided code of a drawing application"
+                    tech="Developed with Java"
+                    linkText="View Git Repository"
                     linkUrl="https://github.com/frmad/JHotDraw"
                     external={true}
                 />
                 <ProjectCard
-                    title="Game semester project"
-                    description="Create 2d game - AI and componentbased development"
-                    tech="Java"
-                    linkText="Link to Git repository"
+                    title="2D Game - Semester Project"
+                    description="A 2D game focusing on AI and component-based development"
+                    tech="Developed with Java"
+                    linkText="View Git Repository"
                     linkUrl="https://github.com/Nolle10/InVasion"
                     external={true}
                 />
                 <ProjectCard
-                    title="Game semester project"
-                    description="Create game based on Sustainable Development Goals (SDG)"
-                    tech="Java and Java FX"
-                    linkText="Link to Git repository"
+                    title="SDG Game - Semester Project"
+                    description="A game based on the Sustainable Development Goals (SDG)"
+                    tech="Developed with Java and JavaFX"
+                    linkText="View Git Repository"
                     linkUrl="https://github.com/mathiasgredal/1-Semesterprojekt-Civil-Gruppe-5.2"
                     external={true}
                 />
                 <ProjectCard
-                    title="Data security semester project"
-                    description="Handel data security"
-                    tech="Java"
-                    linkText="Link to repport"
-                    linkUrl={sem3} //PDF
+                    title="Data Security Microservice - Semester Project"
+                    description="A secure microservice for a music streaming platform, focusing on safeguarding user passwords through encryption and GDPR compliance"
+                    tech="Developed with Java with SQL and REST API integration"
+                    linkText="View Report"
+                    linkUrl={sem3} // PDF
                     external={true}
                 />
             </div>

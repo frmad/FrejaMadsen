@@ -24,28 +24,13 @@ function About() {
                 <div className="flexcontainerAbout">
                     <div className="textSection">
                         <p className="aboutMeText">
-                            Hello, I'm Freja Marie Madsen, a 23-year-old passionate about web development, design, and
-                            continuous personal growth. My journey in the tech world began with a keen interest in business
-                            and IT, which naturally led me to pursue a Bachelor's degree in Software Engineering from the
-                            University of Southern Denmark (SDU). Throughout my academic and professional experiences, I
-                            have built a solid foundation in software development, web editing, and problem-solving, coupled
-                            with valuable experience in customer service and leadership.
-                            <br/><br/>
-                            My background in IT has led me to become acquainted with languages like Java, PHP, and
-                            JavaScript, as well gaining some experience with databases, Docker, and Kubernetes.
-                            <br/><br/>
-                            Beyond my technical expertise, I am a highly organized and dedicated professional. My experience
-                            in customer-facing roles has sharpened my communication skills, allowing me to work effectively
-                            both independently and as part of a team. I am driven by a strong work ethic and a commitment to
-                            excellence in every task I undertake, whether leading a project or providing exceptional service
-                            to clients.
-                            <br/><br/>
-                            I’m always eager to explore new areas, enhance my skills, and take on new challenges that push
-                            me to grow both personally and professionally. If you're looking for someone who brings energy,
-                            dedication, and a versatile skill set to the table, please contact me.
-                            <br/><br/>
-                            I’m excited to see where my journey takes me next and how I can contribute to the success of
-                            your team.
+                            Hello, I'm Freja Marie Madsen, a 23-year-old Full Stack IT Developer with a strong passion for web development, design, and personal growth. My journey into technology started with a keen interest in business and IT, leading me to earn a Bachelor's degree in Software Engineering from the University of Southern Denmark (SDU). This education has provided me with a solid foundation in software development, web design, and problem-solving, complemented by valuable experience in customer service.<br/><br/>
+                            Throughout my academic career, I have worked with a diverse range of technologies including Java, PHP, HTML, CSS, JavaScript, React, Kotlin, and Python. My experience extends to working with relational databases like PostgreSQL and NoSQL databases such as MongoDB. I also have hands-on experience with container technologies like Docker and Kubernetes, enhancing my understanding of modern development practices.<br/><br/>
+                            My studies and projects have involved developing prototypes, designing, and implementing features based on user feedback. I am particularly passionate about creating seamless user experiences through thoughtful design and analysis. Additionally, I am familiar with version control using GitHub, CI/CD practices with GitHub Actions, and hosting with GitHub Pages.<br/><br/>
+                            My academic journey includes a Bachelor’s degree in Software Engineering from the University of Southern Denmark, where I combined theoretical knowledge with practical experience in programming, software architecture, and project management. My high school education at Nyborg Gymnasium provided a solid foundation in economics, marketing, and languages.<br/><br/>
+                            Beyond my technical skills, I am highly organized and dedicated. My customer-facing roles have refined my communication skills, enabling me to work effectively both independently and as part of a team. I am driven by a strong work ethic and a commitment to excellence in every task I undertake.<br/><br/>
+                            I am always eager to explore new areas, enhance my skills, and embrace challenges that foster both personal and professional growth. If you are looking for someone who brings energy, dedication, and a versatile skill set to the table, I would love to connect.<br/><br/>
+                            Thank you for visiting my portfolio, and I look forward to potential opportunities to collaborate.
                         </p>
                     </div>
 

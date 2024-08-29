@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import './css/Navbar.css';
 import './css/Colors.css';
 const Navbar =()=>{
@@ -8,11 +8,11 @@ const Navbar =()=>{
                 <ul>
                     <li className="topnav-left">Freja Marie Madsen</li>
                     <div className="topnav-right">
-                        <li><Link to="/" className="nav-link">Home</Link></li>
-                        <li><Link to="/projects" className="nav-link">Projects</Link></li>
-                        <li><Link to="/about" className="nav-link">About</Link></li>
-                        <li><Link to="/contact" className="nav-link">Contact</Link></li>
-                        <li><Link to="/skills" className="nav-link">Skills</Link></li>
+                        <li><NavLink to="/" className={({isActive}) => (isActive ? 'nav-link active' : 'nav-link')}>Home</NavLink></li>
+                        <li><NavLink to="/projects" className={({isActive}) => (isActive ? 'nav-link active' : 'nav-link')}>Projects</NavLink></li>
+                        <li><NavLink to="/about" className={({isActive}) => (isActive ? 'nav-link active' : 'nav-link')}>About</NavLink></li>
+                        <li><NavLink to="/contact" className={({isActive}) => (isActive ? 'nav-link active' : 'nav-link')}>Contact</NavLink></li>
+                        <li><NavLink to="/skills" className={({isActive}) => (isActive ? 'nav-link active' : 'nav-link')}>Skills</NavLink></li>
                     </div>
                 </ul>
             </nav>
