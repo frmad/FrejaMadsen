@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FrejaMadsen/static/css/main.848a2849.css",
-    "main.js": "/FrejaMadsen/static/js/main.facc6c3e.js",
+    "main.css": "/FrejaMadsen/static/css/main.08c3d1e6.css",
+    "main.js": "/FrejaMadsen/static/js/main.5b7a6836.js",
     "static/js/453.bcbd48ea.chunk.js": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js",
     "static/media/sem3.pdf": "/FrejaMadsen/static/media/sem3.67308cacc0d7d807c86f.pdf",
     "static/media/mig3.png": "/FrejaMadsen/static/media/mig3.e2a8e0da4851a253ba5c.png",
@@ -14,12 +14,12 @@
     "static/media/img.png": "/FrejaMadsen/static/media/img.cfac5a10c71b64941966.png",
     "static/media/CV24eng.pdf": "/FrejaMadsen/static/media/CV24eng.0105dac06c4556d6fa8a.pdf",
     "index.html": "/FrejaMadsen/index.html",
-    "main.848a2849.css.map": "/FrejaMadsen/static/css/main.848a2849.css.map",
-    "main.facc6c3e.js.map": "/FrejaMadsen/static/js/main.facc6c3e.js.map",
+    "main.08c3d1e6.css.map": "/FrejaMadsen/static/css/main.08c3d1e6.css.map",
+    "main.5b7a6836.js.map": "/FrejaMadsen/static/js/main.5b7a6836.js.map",
     "453.bcbd48ea.chunk.js.map": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.848a2849.css",
-    "static/js/main.facc6c3e.js"
+    "static/css/main.08c3d1e6.css",
+    "static/js/main.5b7a6836.js"
   ]
 }
