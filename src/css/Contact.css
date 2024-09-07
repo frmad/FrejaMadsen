@@ -61,6 +61,8 @@
     border-radius: 15px;
     font-size: 16px;
     background-color: #f5f5f5; /* Default background color */
+    z-index: 10;
+    position: relative;
 }
 
 /* Customize focus state */

@@ -22,8 +22,9 @@
     font-size: 24px;
     color: var(--green-black);
     margin-bottom: 20px;
-    text-align: center;
-    margin-top: 70px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 90px;
 }
 
 .back, .front {

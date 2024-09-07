@@ -63,7 +63,7 @@
     color: var(--yellow-color);
     text-align: center;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .centered-orange span {
@@ -80,15 +80,15 @@
 }
 
 .headerAbout h4 {
-    font-size: 20px;
+    font-size: 24px;
     color: var(--green-black);
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .headerAbout h5 {
-    font-size: 24px;
+    font-size: 28px;
     color: var(--yellow-color);
-    margin-top: -15px;
+    margin-top: -25px;
     margin-bottom: 35px;
 }
 
@@ -98,43 +98,75 @@
     display: flex; /* Use flexbox to center items */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 150px; /* Ensure the container height matches the blobs */
-    width: 150px; /* Ensure the container width matches the blobs */
+    height: 200px; /* Ensure the container height matches the blobs */
+    width: 200px; /* Ensure the container width matches the blobs */
     margin-left: 25%;
+    margin-bottom: 50px;
 }
 
 .blob {
     background-color: var(--darkgreen-color);
-    height: 150px; /* Height of the blob */
-    width: 150px; /* Width of the blob */
+    height: 200px; /* Height of the blob */
+    width: 200px; /* Width of the blob */
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important; /* Smooth, uneven radius for the blob shape */
     position: relative; /* Positioned relative to the .blob-container */
     z-index: 2; /* Above the shadow */
     overflow: hidden; /* Ensures the image does not overflow outside the blob shape */
+    animation: pulse-rotate 8s infinite; /* Pulsing animation */
+}
+
+@keyframes pulse-rotate {
+    0% {
+        transform: scale(1) rotate(0deg);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(1.1) rotate(45deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 0.7;
+    }
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
 }
 
 .blobBack {
     background-color: rgba(0, 0, 0, 0.1); /* Slightly transparent black for shadow effect */
-    height: 150px; /* Same height as the blob */
-    width: 150px; /* Same width as the blob */
+    height: 200px; /* Same height as the blob */
+    width: 200px; /* Same width as the blob */
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important; /* Smooth, uneven radius */
     position: absolute; /* Position absolute to overlap with the .blob */
     top: 10px; /* Slight offset to create shadow effect */
     left: 30px; /* Slight offset to create shadow effect */
     z-index: 1; /* Below the blob */
+    animation: pulse-rotate 12s infinite; /* Apply the pulsing animation */
+    transform-origin: center; /* Rotate around the center */
 }
 
 .blob-image {
     position: absolute; /* Position the image relative to the .blob-container */
-    top: 65%; /* Center vertically */
-    left: 55%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust the image's center to match the blob's center */
-    height: 140px; /* Same height as the blob */
-    width: 140px; /* Same width as the blob */
+    top: 20%; /* Center vertically */
+    left: 13%; /* Center horizontally */
+    /*transform: translate(-50%, -50%); /* Adjust the image's center to match the blob's center */
+    height: 170px; /* Same height as the blob */
+    width: 170px; /* Same width as the blob */
     border-radius: 50%; /* Circular image to match the shape */
     z-index: 3; /* Above the blobs */
     object-fit: cover;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important;
+}
+
+.blob-image:hover {
+    animation: pulse 2s infinite;
 }
 
 /* Flex container for side-by-side layout */
@@ -176,4 +208,27 @@
 .aboutMe {
     padding-right: 40px;
     padding-left: 40px;
+}
+
+/* Media query for screens 600px wide or smaller */
+@media (max-width: 600px) {
+    .content-about {
+        margin-right: 100px;
+    }
+    .blob {
+        width: 170px;
+        height: 170px;
+    }
+    .blobBack {
+        width: 170px;
+        height: 170px;
+    }
+    .blob-image {
+        width: 150px;
+        height: 150px;
+    }
+    .blob-container {
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
 }

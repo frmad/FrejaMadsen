@@ -10,7 +10,7 @@ const BackendProjects = () => {
                 <ProjectCard
                     title="Recipe Page Project"
                     description="A simple website to keep track of my favorite recipes"
-                    tech="Developed with React JS, CSS, and a local database"
+                    tech="Developed with React JavaScript, CSS, and a local database"
                     linkText="Open Recipe Project"
                     linkUrl="https://frmad.github.io/Recipe-application"
                     external={false}
@@ -42,7 +42,7 @@ const BackendProjects = () => {
                 <ProjectCard
                     title="Data Security Microservice - Semester Project"
                     description="A secure microservice for a music streaming platform, focusing on safeguarding user passwords through encryption and GDPR compliance"
-                    tech="Developed with Java with SQL and REST API integration"
+                    tech="Developed with Java, SQL and REST API integration"
                     linkText="View Report"
                     linkUrl={sem3} // PDF
                     external={true}

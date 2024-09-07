@@ -1,11 +1,11 @@
 import React from 'react';
 import '../css/About.css';
-import migImage from '../images/mig3.png';
+import migImage from '../images/mig4.jpg';
 import Wave from '../routes/Elements/Wave';
 
 function About() {
     return (
-        <div>
+        <div className="content-about">
             {/* About Me Section */}
             <div className="aboutMe" id="about">
                 <div className="headerAbout">

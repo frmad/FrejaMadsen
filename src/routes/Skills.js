@@ -13,12 +13,13 @@ function Skills() {
                 {renderSkill("HTML", "good", "70%")}
                 {renderSkill("CSS", "good", "70%")}
                 {renderSkill("Java", "okay", "60%")}
-                {renderSkill("React", "okay", "60%")}
+                {renderSkill("React", "know", "50%")}
                 {renderSkill("SQL", "know", "50%")}
                 {renderSkill("JavaScript", "notGood", "30%")}
                 {renderSkill("PHP", "notGood", "30%")}
                 {renderSkill("Python", "notGood", "30%")}
                 {renderSkill("MongoDB", "notGood", "30%")}
+                {renderSkill("Typescript", "bad", "20%")}
                 {renderSkill("Docker", "bad", "20%")}
                 {renderSkill("Kubernetes", "bad", "20%")}
                 {renderSkill("CI/CD", "bad", "20%")}

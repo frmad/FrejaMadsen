@@ -3,7 +3,7 @@ import migImage from '../images/mig2.jpg';
 import scrollDown from '../icons/scroll.png';
 import download from '../icons/download.png';
 import '../css/Home.css';
-import resume from "../cv/CV24eng.pdf";
+import resume from "../cv/CV2024.pdf";
 
 function Home() {
     useEffect(() => {

@@ -224,6 +224,9 @@ section {
     max-width: 365px; /* Set a max-width for readability */
     margin: 0; /* Remove margin for alignment */
     line-height: 1.5; /* Adjust line height for readability */
+    hyphens: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /* Responsive Layout */
