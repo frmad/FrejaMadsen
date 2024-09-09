@@ -13,7 +13,7 @@ const BackendProjects = () => {
                     tech="Developed with React JavaScript, CSS, and a local database"
                     linkText="Open Recipe Project"
                     linkUrl="https://frmad.github.io/Recipe-application"
-                    external={false}
+                    external={true}
                 />
                 <ProjectCard
                     title="Software Maintenance Project"
