@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import sem3 from '../../Figmaimages/sem3.pdf';
+import sem3 from '../../figmaimages/sem3.pdf';
 
 const BackendProjects = () => {
     return (

@@ -34,12 +34,13 @@ function Home() {
                     <div className="text-content">
                         <h2 className="homeTitle">Welcome to My Portfolio!</h2>
                         <p className="intro-text">
-                            Hello and welcome! I'm a 23-year-old energetic, dedicated,
-                            and highly organized Full Stack IT Developer with a robust background in service,
-                            IT, and communication. My experience spans web editing, leadership, and customer interaction,
-                            equipping me with a strong foundation in both independent and collaborative work environments.
-                            I am driven by curiosity and a desire for continuous personal and professional development,
-                            always striving to enhance my skills and capabilities.
+                            Hello and welcome! I'm a energetic, engaged, and structured 23-year-old front-end
+                            developer with experience in service, software development,
+                            and communication. Passionate about web development, project management,
+                            and customer relations. Adept at working independently while excelling in collaborative
+                            environments. Driven by curiosity and a strong desire for continuous
+                            personal and professional growth, always focused on refining and enhancing
+                            my skill set.
                         </p>
 
                         <a href={resume} download="Freja-resume" className="resume-link">
@@ -62,19 +63,17 @@ function Home() {
                     </button>
                 </div>
                 <p>
-                    In this section, you'll find further insights into my professional journey, skills, and the unique experiences that shape my work.
+                    In this section, you'll find further insights into my skills and interest that shape my work.
                 </p>
                 <div className="flex-container">
                     <div>
                         <h4>Problem Solving</h4>
-                        <p>I thrive in environments where creative problem solving is crucial.
-                            My background in software engineering has equipped me with the skills
-                            to tackle complex technical challenges with innovative solutions.
-                            Whether it's developing a new feature, debugging intricate issues,
-                            or optimizing performance, I enjoy the process of finding elegant and
-                            effective solutions. My enthusiasm for technology is driven by the excitement
-                            of transforming ideas into functional products and continuously improving
-                            systems based on user feedback.</p>
+                        <p>I like environments where creative problem solving is crucial.
+                            My background in software engineering has given me the tools to approach
+                            complex technical challenges with innovative thinking.
+                            Whether it's developing a new feature, troubleshooting issues,
+                            or optimizing performance, I find satisfaction
+                            in crafting practical and effective solutions.</p>
                     </div>
 
                     <div>
@@ -95,6 +94,42 @@ function Home() {
                             This commitment to learning allows me to approach challenges with fresh perspectives and
                             innovative solutions, enhancing my ability to contribute effectively to any team or
                             project.</p>
+                    </div>
+
+                    <div>
+                        <h4>Frontend Development</h4>
+                        <p>Based on my education, I have gained experience in frontend development, which has evolved
+                            into a growing passion of mine.
+                            I thoroughly enjoy exploring new design tools and learning how to create visually appealing
+                            and user-friendly interfaces.
+                            My education has provided me with hands-on experience with tools like Figma for wireframing
+                            and has given me a solid foundation in design principles.
+                            I’m always eager to enhance my skills and study best practices in frontend development, as I
+                            find the blend of creativity and technology incredibly rewarding.</p>
+                    </div>
+
+                    <div>
+                        <h4>Customer and User Interaction</h4>
+                        <p>With over six years of experience in customer service, including working in a mini-golf shop
+                            and providing direct support to customers, I have developed strong skills in managing
+                            customer relationships and addressing their needs. This hands-on experience has enhanced my
+                            communication abilities and fostered an empathetic approach to problem-solving.
+                            Additionally, my student job at SDU CRM Group involved engaging with users, which further
+                            refined my capacity to understand and meet client requirements. These experiences have
+                            equipped me with a solid foundation in customer service and user communication, enabling me
+                            to build positive relationships and deliver exceptional service.</p>
+                    </div>
+
+                    <div>
+                        <h4>Ongoing Development in Frontend Skills</h4>
+                        <p>I am actively working on enhancing my frontend development skills, with a particular focus on
+                            JavaScript. I am dedicating time to deepen my understanding of JavaScript, exploring
+                            advanced techniques, and applying best practices to improve my coding knowledge.
+                            Additionally, I am committed to refining my UX/UI design skills to create more intuitive and
+                            engaging user experiences. To further expand my expertise, I am also delving into 3D
+                            graphics with libraries such as Three.js. This ongoing learning journey reflects my
+                            dedication to honing my skills in frontend development and delivering innovative
+                            solutions.</p>
                     </div>
                 </div>
             </div>

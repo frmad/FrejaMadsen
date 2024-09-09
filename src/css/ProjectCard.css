@@ -51,12 +51,12 @@ body {
 /* Card image styles */
 .card .card-image {
     width: 100%;
-    height: auto;
-    max-width: 300px; /* Maximum width */
-    max-height: 300px; /* Maximum height */
+    height: 200px;
+    object-fit: cover;
     display: block;
     margin: 0 auto 15px;
-    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+    border-radius: 0px;
+    max-width: 300px;
 }
 
 /* Project link styles */
@@ -104,4 +104,25 @@ body {
     margin: 0 0 5px !important; /* Ensure no extra margin is applied */
     padding: 0 !important;
     color: #333333; /* Slightly lighter color for better readability */
+}
+
+/* Container for the video */
+.video-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Styling for the video player */
+.video-player {
+    width: 100%;
+    max-width: 100%; /* Ensure it doesn't exceed the card's width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+.video-button {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 9px;
+    margin: 2px;
 }

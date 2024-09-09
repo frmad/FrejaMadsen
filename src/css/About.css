@@ -57,6 +57,9 @@
     text-align: left;
     font-size: 11px;
     line-height: 1.6;
+    hyphens: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .centered-orange {
