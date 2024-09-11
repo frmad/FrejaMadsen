@@ -8,6 +8,7 @@ import xpenceLofi from '../../figmaimages/Xpence-LO-FI.png';
 import xpenceVideo from '../Projects/video/XRecorder_Edited_08012024_163630 (1).mp4';
 import vroomVideo from '../Projects/video/XRecorder_Edited_30102023_152434 (1).mp4';
 import siesta from '../../../src/figmaimages/siesta.png';
+import three_js_starter from '../../figmaimages/three-js-starter.png';
 
 const FrontendProjects = () => {
     return (
@@ -62,6 +63,14 @@ const FrontendProjects = () => {
                     external={true}
                     imageUrl={siesta}
                     figmaUrlHifi="https://www.figma.com/design/bi5rjnvqjt8X648DsfKQuy/Siesta?node-id=0-1&t=T38LFjjZeCQCGQRz-1"
+                />
+                <ProjectCard
+                    title="Three.js starter project"
+                    description="Website that uses Three.js for creating 3d objects and animations"
+                    tech="Developed with HTML, CSS and JavaScript"
+                    external={true}
+                    imageUrl={three_js_starter}
+                    figmaUrlHifi="https://github.com/frmad/Three.js-StarterProject"
                 />
             </div>
         </div>
