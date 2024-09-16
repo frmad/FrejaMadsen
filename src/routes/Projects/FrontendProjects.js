@@ -9,6 +9,7 @@ import xpenceVideo from '../Projects/video/XRecorder_Edited_08012024_163630 (1).
 import vroomVideo from '../Projects/video/XRecorder_Edited_30102023_152434 (1).mp4';
 import siesta from '../../../src/figmaimages/siesta.png';
 import three_js_starter from '../../figmaimages/three-js-starter.png';
+import three_js_solar from '../../figmaimages/solarsystem.png';
 
 const FrontendProjects = () => {
     return (
@@ -71,6 +72,14 @@ const FrontendProjects = () => {
                     external={true}
                     imageUrl={three_js_starter}
                     figmaUrlHifi="https://github.com/frmad/Three.js-StarterProject"
+                />
+                <ProjectCard
+                    title="Three.js solarsystem project"
+                    description="Three.js project that symbolizes the solar system"
+                    tech="Developed with JavaScript"
+                    external={true}
+                    imageUrl={three_js_solar}
+                    figmaUrlHifi="https://github.com/frmad/solarsystem"
                 />
             </div>
         </div>
