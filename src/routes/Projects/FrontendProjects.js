@@ -69,17 +69,19 @@ const FrontendProjects = () => {
                     title="Three.js starter project"
                     description="Website that uses Three.js for creating 3d objects and animations"
                     tech="Developed with HTML, CSS and JavaScript"
+                    linkText="View Git Repository"
+                    linkUrl="https://github.com/frmad/Three.js-StarterProject"
                     external={true}
                     imageUrl={three_js_starter}
-                    figmaUrlHifi="https://github.com/frmad/Three.js-StarterProject"
                 />
                 <ProjectCard
                     title="Three.js solarsystem project"
                     description="Three.js project that symbolizes the solar system"
                     tech="Developed with JavaScript"
+                    linkText="View Git Repository"
+                    linkUrl="https://github.com/frmad/solarsystem"
                     external={true}
                     imageUrl={three_js_solar}
-                    figmaUrlHifi="https://github.com/frmad/solarsystem"
                 />
             </div>
         </div>
