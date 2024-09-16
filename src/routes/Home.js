@@ -34,13 +34,14 @@ function Home() {
                     <div className="text-content">
                         <h2 className="homeTitle">Welcome to My Portfolio!</h2>
                         <p className="intro-text">
-                            Hello and welcome! I'm a energetic, engaged, and structured 23-year-old front-end
+                            {/*Hello and welcome! I'm a energetic, engaged, and structured 23-year-old front-end
                             developer with experience in service, software development,
                             and communication. Passionate about web development, project management,
                             and customer relations. Adept at working independently while excelling in collaborative
                             environments. Driven by curiosity and a strong desire for continuous
                             personal and professional growth, always focused on refining and enhancing
-                            my skill set.
+                            my skill set.*/}
+                            Hello and welcome! I'm a curious and adventurous 23-year-old front-end developer with a passion for exploring new horizons and gaining fresh experiences. Always eager to learn and grow, I find joy in discovering new things and embracing new challenges. My motivation comes from a deep curiosity and a desire to continuously evolve, both personally and professionally. Whether it’s delving into new technologies or seeking out new adventures, I’m always driven by a sense of wonder and excitement.
                         </p>
 
                         <a href={resume} download="Freja-resume" className="resume-link">
