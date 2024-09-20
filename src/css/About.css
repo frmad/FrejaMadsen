@@ -1,3 +1,226 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 10px;
+    margin-top: 90px;
+    justify-content: center;
+    position: relative; /* Ensures absolute children are positioned relative to this */
+}
+
+.circle-div-first, .circle-div-second {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 2;
+    position: absolute; /* Overlapping position */
+}
+
+.circle-div-first {
+    position: absolute; /* Add position property */
+    top: 70px; /* Remove quotes and comma */
+    left: 480px; /* Remove quotes */
+}
+
+.circle-div-second {
+    position: absolute; /* Add position property */
+    top: 200px; /* Remove quotes and comma */
+    left: 480px; /* Remove quotes */
+}
+
+.circle-div-first p, .circle-div-second p {
+    max-width: 82%;
+    font-size: 12px;
+    margin-right: 50px;
+    color: #333;
+    line-height: 1.6;
+    hyphens: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.circle {
+    width: 10vw; /* Set width based on viewport width */
+    aspect-ratio: 1 / 1; /* Maintain a 1:1 aspect ratio */
+    max-width: 80px; /* Optional: cap the size for larger screens */
+    max-height: 80px; /* Optional: cap the size for larger screens */
+    background-color: var(--yellow-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.about-icon {
+    width: 50%;
+    height: auto;
+}
+
+.about-icon-diploma {
+    width: 60%;
+    height: auto;
+}
+
+.mig-image-ny {
+    width: 100%;
+    max-width: 19rem; /* Limit max size on larger screens */
+    height: auto;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.mig-image-ny:hover {
+    animation: pulse 2s infinite;
+}
+
+.blob-ny,
+.blob-ny-with-rotation {
+    background-color: var(--darkgreen-color);
+    position: relative;
+    z-index: 2;
+    overflow: hidden; /* Prevents overflow */
+}
+
+.blob-ny {
+    height: 200px;
+    width: 200px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important;
+}
+
+.blob-ny-with-rotation {
+    height: 130px;
+    width: 130px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important;
+    transform: rotate(70deg);
+}
+
+.blob-text,
+.blob-text-with-rotation {
+    position: absolute;
+    color: var(--yellow-color);
+    font-size: 12px;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blob-text-with-rotation {
+    transform: translate(-50%, -50%) rotate(-70deg); /* Centers and rotates */
+}
+
+.blob-text span,
+.blob-text-with-rotation span {
+    color: white;
+}
+
+.right-blob {
+    float: left;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.left-blob {
+    float: right;
+    margin-left: 20px;
+}
+
+.right {
+    margin-left: -510px;
+}
+
+.right h4 {
+    font-size: 30px;
+    color: var(--green2);
+    margin-top: 5px;
+}
+
+.right h5 {
+    font-size: 20px;
+    color: var(--yellow-color);
+    margin-top: -30px;
+    font-weight: normal;
+}
+
+.textSection-ny {
+    margin-left: 17.5%;/*225px;*/
+    margin-top: -40px;
+    margin-right: 80px;
+}
+
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 1000px) {
+    .flex {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .right {
+        margin-left: 0; /* Reset margin for smaller screens */
+        text-align: center; /* Center text */
+    }
+
+    .textSection-ny {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .circle-div-first,
+    .circle-div-second {
+        position: relative; /* Change to relative to stack vertically */
+        top: 0; /* Reset top positioning */
+        left: 0; /* Reset left positioning */
+        margin-left: 10px;
+        margin-top: -50px;
+        align-content: center;
+        justify-content: center;
+
+    }
+
+    .circle-div-second {
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+
+    .circle-div-first p, .circle-div-second p{
+        max-width: 70%;
+    }
+
+    .circle {
+        width: 40px; /* Adjust size for smaller screens */
+        height: 40px;
+    }
+
+    .blob-ny {
+        height: 150px; /* Adjust blob size */
+        width: 150px; /* Adjust blob size */
+    }
+
+    .blob-ny-with-rotation {
+        height: 100px; /* Adjust blob size */
+        width: 100px; /* Adjust blob size */
+    }
+
+    .blob-text,
+    .blob-text-with-rotation {
+        font-size: 10px; /* Reduce font size */
+    }
+
+    .right-blob,
+    .left-blob {
+
+        margin: 20px;
+    }
+}
+
+
+
+
+
+
+
 /* Container for skill bars */
 .box {
     display: flex; /* Use flexbox */
@@ -55,7 +278,7 @@
 .aboutMeText {
     color: #333;
     text-align: left;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.6;
     hyphens: auto;
     word-wrap: break-word;
@@ -138,7 +361,8 @@
         transform: scale(1);
     }
     to {
-        transform: scale(1.2);
+        transform: scale(1.05);
+        margin-bottom: 20px;
     }
 }
 
