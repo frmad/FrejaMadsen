@@ -10,6 +10,7 @@ import vroomVideo from '../Projects/video/XRecorder_Edited_30102023_152434 (1).m
 import siesta from '../../../src/figmaimages/siesta.png';
 import three_js_starter from '../../figmaimages/three-js-starter.png';
 import three_js_solar from '../../figmaimages/solarsystem.png';
+import butterfly from '../../figmaimages/butterflyProject.png';
 
 const FrontendProjects = () => {
     return (
@@ -82,6 +83,15 @@ const FrontendProjects = () => {
                     linkUrl="https://github.com/frmad/solarsystem"
                     external={true}
                     imageUrl={three_js_solar}
+                />
+                <ProjectCard
+                    title="Interactive Butterfly Model"
+                    description="A 3D interactive butterfly model integrated into a web page, showcasing modern web design techniques."
+                    tech="Built using HTML, CSS, JavaScript, and Three.js"
+                    linkText="View Git Repository"
+                    linkUrl="https://github.com/frmad/Modern-Web-Design-with-3D-Model"
+                    external={true}
+                    imageUrl={butterfly}
                 />
             </div>
         </div>
