@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FrejaMadsen/static/css/main.0008c38a.css",
-    "main.js": "/FrejaMadsen/static/js/main.7d4f37d7.js",
+    "main.js": "/FrejaMadsen/static/js/main.d309ad97.js",
     "static/js/453.bcbd48ea.chunk.js": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js",
     "static/media/XRecorder_Edited_30102023_152434 (1).mp4": "/FrejaMadsen/static/media/XRecorder_Edited_30102023_152434 (1).a2cd4d0066b3ea36d7b6.mp4",
     "static/media/XRecorder_Edited_08012024_163630 (1).mp4": "/FrejaMadsen/static/media/XRecorder_Edited_08012024_163630 (1).d9ab0804943d690e0428.mp4",
@@ -15,16 +15,17 @@
     "static/media/Vroom-LO-FI.png": "/FrejaMadsen/static/media/Vroom-LO-FI.ac6f2a028cc2b612423d.png",
     "static/media/solarsystem.png": "/FrejaMadsen/static/media/solarsystem.3df9ef40e18dc52e8dc6.png",
     "static/media/CV2024.pdf": "/FrejaMadsen/static/media/CV2024.471930d51f50d7e3776d.pdf",
+    "static/media/butterflyProject.png": "/FrejaMadsen/static/media/butterflyProject.45d727fc2c62cb199a6a.png",
     "static/media/Vroom-HI-FI.png": "/FrejaMadsen/static/media/Vroom-HI-FI.a8b756ebcc5e213cb3e7.png",
     "static/media/img.png": "/FrejaMadsen/static/media/img.cfac5a10c71b64941966.png",
     "static/media/mig4.jpg": "/FrejaMadsen/static/media/mig4.5ecc981fb84a29e84deb.jpg",
     "index.html": "/FrejaMadsen/index.html",
     "main.0008c38a.css.map": "/FrejaMadsen/static/css/main.0008c38a.css.map",
-    "main.7d4f37d7.js.map": "/FrejaMadsen/static/js/main.7d4f37d7.js.map",
+    "main.d309ad97.js.map": "/FrejaMadsen/static/js/main.d309ad97.js.map",
     "453.bcbd48ea.chunk.js.map": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0008c38a.css",
-    "static/js/main.7d4f37d7.js"
+    "static/js/main.d309ad97.js"
   ]
 }
