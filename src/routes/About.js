@@ -45,7 +45,6 @@ function About() {
 
             <div className="textSection-ny">
                 <p className="aboutMeText">
-                    Your text here. It will wrap around the div below.
                     <div className="left-blob">
                         <div className="blob-ny">
 

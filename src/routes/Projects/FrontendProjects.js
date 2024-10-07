@@ -11,6 +11,7 @@ import siesta from '../../../src/figmaimages/siesta.png';
 import three_js_starter from '../../figmaimages/three-js-starter.png';
 import three_js_solar from '../../figmaimages/solarsystem.png';
 import butterfly from '../../figmaimages/butterflyProject.png';
+import parallaxglass from '../../figmaimages/parallax-glass.png';
 
 const FrontendProjects = () => {
     return (
@@ -92,6 +93,15 @@ const FrontendProjects = () => {
                     linkUrl="https://github.com/frmad/Modern-Web-Design-with-3D-Model"
                     external={true}
                     imageUrl={butterfly}
+                />
+                <ProjectCard
+                    title="CSS Parallax Project"
+                    description="A 3D interactive web page that explores modern web design techniques through parallax scrolling effects."
+                    tech="Built using HTML, CSS, and JavaScript"
+                    linkText="View Git Repository"
+                    linkUrl="https://github.com/frmad/Shattered-Glass-Parallax"
+                    external={true}
+                    imageUrl={parallaxglass}
                 />
             </div>
         </div>
