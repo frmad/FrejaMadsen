@@ -20,13 +20,16 @@ function Skills() {
                 {renderSkill("Python", "notGood", "30%")}
                 {renderSkill("MongoDB", "notGood", "30%")}
                 {renderSkill("Typescript", "bad", "20%")}
+                {renderSkill("Three.js", "bad", "20%")}
+                {renderSkill("Bootstrap", "bad", "20%")}
+                {renderSkill("Tailwind", "bad", "20%")}
                 {renderSkill("Docker", "bad", "20%")}
                 {renderSkill("Kubernetes", "bad", "20%")}
                 {renderSkill("CI/CD", "bad", "20%")}
             </div>
 
-            {/* Semi-technical Skills */}
-            <h4 className="header">Semi-technical Skills</h4>
+            {/* Other Skills */}
+            <h4 className="header">Other Skills</h4>
             <div className="box">
                 {renderSkill("Word", "full", "100%")}
                 {renderSkill("Excel", "better", "80%")}

@@ -15,13 +15,14 @@ function Projects() {
             {
                 opacity: 1,
                 x: "0vw",
-                duration: 1.5,
+                duration: 2.5,
+                ease: "power2.out", // Adds easing for smoothness
                 scrollTrigger: {
-                    trigger: ".front", // This is the element being observed
-                    start: "top 80%", // Start animation when the top of .front is 80% from the top of the viewport
-                    end: "top 20%", // End animation when the top of .front is 20% from the top of the viewport
-                    scrub: true, // Smoothly animate based on scroll position
-                    markers: false // Remove markers for production
+                    trigger: ".front",
+                    start: "top 80%", // Adjust start trigger point
+                    end: "top 10%", // Adjust end trigger point
+                    scrub: true,
+                    markers: false // Temporarily set to true for debugging
                 }
             }
         );
@@ -31,7 +32,7 @@ function Projects() {
             {
                 opacity: 1,
                 x: "0vw",
-                duration: 1.5,
+                duration: 2.5,
                 scrollTrigger: {
                     trigger: ".back", // This is the element being observed
                     start: "top 80%", // Start animation when the top of .back is 80% from the top of the viewport

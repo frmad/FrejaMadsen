@@ -12,6 +12,7 @@ import three_js_starter from '../../figmaimages/three-js-starter.png';
 import three_js_solar from '../../figmaimages/solarsystem.png';
 import butterfly from '../../figmaimages/butterflyProject.png';
 import parallaxglass from '../../figmaimages/parallax-glass.png';
+import bootstrapStarter from '../../figmaimages/bootsrapStarter.png';
 
 const FrontendProjects = () => {
     return (
@@ -102,6 +103,15 @@ const FrontendProjects = () => {
                     linkUrl="https://github.com/frmad/Shattered-Glass-Parallax"
                     external={true}
                     imageUrl={parallaxglass}
+                />
+                <ProjectCard
+                    title="BootstrapKickstart"
+                    description="Project for understanding the fundamentals of Bootstrap."
+                    tech="Built using HTML, CSS and Bootstrap"
+                    linkText="View Git Repository"
+                    linkUrl="https://github.com/frmad/BootstrapKickstart"
+                    external={true}
+                    imageUrl={bootstrapStarter}
                 />
             </div>
         </div>
