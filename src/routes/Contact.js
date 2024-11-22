@@ -41,12 +41,12 @@ const Contact = () => {
     };
 
     return (
-        <div className="contactPage">
-            <Wave />
+        <><Wave /><div className="contactPage">
+
 
             {/*<div className="header">
-                <h2>Contact Me</h2>
-            </div>*/}
+        <h2>Contact Me</h2>
+    </div>*/}
 
             <div className="contactContent">
                 <div className="contactForm">
@@ -60,8 +60,7 @@ const Contact = () => {
                                 name="to_name"
                                 value={formData.to_name}
                                 onChange={handleChange}
-                                required
-                            />
+                                required />
                         </div>
                         <div className="formGroup">
                             <label htmlFor="from_email">Email:</label>
@@ -71,8 +70,7 @@ const Contact = () => {
                                 name="from_email"
                                 value={formData.from_email}
                                 onChange={handleChange}
-                                required
-                            />
+                                required />
                         </div>
                         <div className="formGroup">
                             <label htmlFor="message">Message:</label>
@@ -82,8 +80,7 @@ const Contact = () => {
                                 value={formData.message}
                                 onChange={handleChange}
                                 rows="4"
-                                required
-                            />
+                                required />
                         </div>
                         <button type="submit">Send Message</button>
                     </form>
@@ -98,7 +95,7 @@ const Contact = () => {
                         className="info">21854409</span></p>
                 </div>
             </div>
-        </div>
+        </div></>
     );
 }
 

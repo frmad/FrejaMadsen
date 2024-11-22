@@ -1,18 +1,31 @@
 /* Top wave style */
 .wave-top {
     position: absolute;
-    top: 0;
+    top: -3rem;
     left: 0;
     width: 100%;
     height: auto;
     min-height: 230px;
-    margin-top: -3px;
+    margin-top: 0;
 }
 
 /* Content between the waves */
-.wave-content {
+.wave-container {
     position: relative;
     z-index: 1;
-    padding: 50px;
+    padding: 10px;
     text-align: center;
+}
+
+
+@media (max-width: 780px) {
+    .wave-top {
+        top: -4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .wave-top {
+        top: -5rem;
+    }
 }

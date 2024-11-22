@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     gap: 50px;
     margin: 10px;
-    margin-top: 90px;
+    margin-top: 70px;
     justify-content: center;
     position: relative; /* Ensures absolute children are positioned relative to this */
 }

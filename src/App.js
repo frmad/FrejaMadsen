@@ -3,6 +3,7 @@ import {Routes, Route, useLocation} from "react-router-dom";
 import Navbar from './Navbar';
 import About from './routes/About';
 import Projects from './routes/Projects';
+import Courses from './routes/Courses';
 import Home from './routes/Home';
 import Recipes from "./routes/Projects/RecipesProject/Recipes";
 import Contact from "./routes/Contact";
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/recipes" element={<Recipes />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/skills" element={<Skills />} />
+                <Route path="/courses" element={<Courses />} />
             </Routes>
         </div>
     );
