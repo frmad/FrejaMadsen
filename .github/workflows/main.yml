@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -21,13 +21,14 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Disable ESLint warnings
+      run: echo "CI=false" >> .env  # Sikrer, at advarsler ikke stopper build-processen
+
     - name: Build the app
-      env:
-        CI: false  # Disable treating warnings as errors
-      run: npm run predeploy  # This runs the build step
+      run: npm run build  # Dette kører build direkte uden for predeploy
 
     - name: Deploy the app to GitHub Pages
-      run: npm run deploy  # This will deploy the app to GitHub Pages using gh-pages
+      run: npm run deploy  # Bruger gh-pages til deployment
       env:
         REACT_APP_EMAILJS_SERVICE: ${{ secrets.REACT_APP_EMAILJS_SERVICE }}
         REACT_APP_EMAILJS_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_TEMPLATE }}
