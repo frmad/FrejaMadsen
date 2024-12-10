@@ -23,10 +23,10 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs.sendForm(
-            "service_0xjqsib", // Your EmailJS service ID
-            "template_xokcfcc", // Your EmailJS template ID
+            process.env.REACT_APP_EMAILJS_SERVICE, // Your EmailJS service ID
+            process.env.REACT_APP_EMAILJS_TEMPLATE, // Your EmailJS template ID
             form.current, // Reference to the form
-            "StGjl_JgAL9BqR1od" // Your EmailJS public key
+            process.env.REACT_APP_EMAILJS_KEY // Your EmailJS public key
         )
             .then(
                 (result) => {
@@ -41,19 +41,19 @@ const Contact = () => {
     };
 
     return (
-        <><Wave /><div className="contactPage">
+        <><Wave />
+        <div className="contactPage">
 
-
-            {/*<div className="header">
+        {/*<div className="header">
         <h2>Contact Me</h2>
-    </div>*/}
+        </div>*/}
 
             <div className="contactContent">
                 <div className="contactForm">
                     <h3>Get in Touch</h3>
                     <form ref={form} onSubmit={handleSubmit}>
                         <div className="formGroup">
-                            <label htmlFor="to_name">Name:</label>
+                            <label htmlFor="to_name">Your Name:</label>
                             <input
                                 type="text"
                                 id="to_name"
@@ -63,7 +63,7 @@ const Contact = () => {
                                 required />
                         </div>
                         <div className="formGroup">
-                            <label htmlFor="from_email">Email:</label>
+                            <label htmlFor="from_email">Your Email:</label>
                             <input
                                 type="email"
                                 id="from_email"
@@ -90,9 +90,9 @@ const Contact = () => {
                     <h3>Contact Information</h3>
                     <p>If you prefer, you can also reach out to me directly:</p>
                     <p className="contact-email"><strong className="label">Email:</strong> <span
-                        className="info">frejamadsen1408@gmail.com</span></p>
+                        className="info">{process.env.REACT_APP_EMAIL}</span></p>
                     <p className="contact-phone"><strong className="label">Phone:</strong> <span
-                        className="info">21854409</span></p>
+                        className="info">{process.env.REACT_APP_PHONE}</span></p>
                 </div>
             </div>
         </div></>
