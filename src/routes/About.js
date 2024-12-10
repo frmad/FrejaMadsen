@@ -11,7 +11,7 @@ function About() {
             <Wave/>
             <div className="flex" style={{position: 'relative'}}> {/* Make this container relative */}
                 <div className="right">
-                    <img src={migImage} alt="Profile picture of Freja Marie Madsen" className="mig-image-ny"/>
+                    <img src={migImage} alt="Freja Marie Madsen" className="mig-image-ny"/>
                     <h4>Freja Marie Madsen</h4>
                     <h5>Software developer</h5>
                 </div>

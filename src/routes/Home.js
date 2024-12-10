@@ -46,12 +46,12 @@ function Home() {
                         </p>
 
                         <a href={resume} download="Freja-resume" className="resume-link">
-                            <img src={download} alt="Download" className="download-icon"/>
+                            <img src={download} alt="Download my resume" className="download-icon"/>
                             Download Resume
                         </a>
 
                     </div>
-                    <img src={migImage} alt="Picture of me" className="responsive"/>
+                    <img src={migImage} alt="Freja Marie Madsen" className="responsive"/>
                 </div>
                 <div className="curve"></div>
             </section>
@@ -61,7 +61,7 @@ function Home() {
                 <div className="moreInfoText">
                     <h3>Read more about me here</h3>
                     <button id="scrollButton" className="scroll-button">
-                        <img src={scrollDown} alt="Scroll down" className="scroll-icon"/>
+                        <img src={scrollDown} alt="Scroll down to more content" className="scroll-icon"/>
                     </button>
                 </div>
                 <p>
