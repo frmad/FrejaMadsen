@@ -24,7 +24,7 @@ jobs:
     - name: Build the app
       env:
         CI: false  # This disables treating warnings as errors
-      run: npm run build
+      run: npm build
 
     - name: Deploy the app
       env:
@@ -32,4 +32,4 @@ jobs:
         REACT_APP_EMAILJS_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_TEMPLATE }}
         REACT_APP_EMAILJS_KEY: ${{ secrets.REACT_APP_EMAILJS_KEY }}
       run: |
-        npm run deploy  # Replace this with your deploy script
+        npm deploy  # Replace this with your deploy script
