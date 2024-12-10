@@ -12,6 +12,12 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+    
+    - name: Set up Git identity
+      run: |
+        git config --global user.email "frejamadsen1408@gmail.com"
+        git config --global user.name "frmad"
+  
 
     - name: Set up Node.js
       uses: actions/setup-node@v2
