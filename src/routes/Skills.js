@@ -26,14 +26,15 @@ function Skills() {
                 {renderSkill("Docker", "bad", "20%")}
                 {renderSkill("Kubernetes", "bad", "20%")}
                 {renderSkill("CI/CD", "bad", "20%")}
+                {renderSkill("Angular", "bad", "20%")}
             </div>
 
             {/* Other Skills */}
             <h4 className="header">Other Skills</h4>
             <div className="box">
                 {renderSkill("Word", "full", "100%")}
-                {renderSkill("Excel", "better", "80%")}
                 {renderSkill("Powerpoint", "better", "80%")}
+                {renderSkill("Excel", "good", "70%")}
             </div>
 
             {/* Language Skills */}

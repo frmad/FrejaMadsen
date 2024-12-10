@@ -9,14 +9,14 @@ const BackendProjects = () => {
             <div className="row">
                 <ProjectCard
                     title="Recipe Page Project"
-                    description="A simple website to keep track of my favorite recipes"
+                    description="A simple website that keeps track of my favorite recipes"
                     tech="Developed with React JavaScript, CSS, and a local database"
                     linkText="Open Recipe Project"
                     linkUrl="https://frmad.github.io/Recipe-application"
                     external={true}
                 />
                 <ProjectCard
-                    title="Software Maintenance Project"
+                    title="Software Maintenance Project - School Project"
                     description="Enhancement of the maintainability of the provided code of a drawing application"
                     tech="Developed with Java"
                     linkText="View Git Repository"
@@ -41,7 +41,7 @@ const BackendProjects = () => {
                 />
                 <ProjectCard
                     title="Data Security Microservice - Semester Project"
-                    description="A secure microservice for a music streaming platform, focusing on safeguarding user passwords through encryption and GDPR compliance"
+                    description="A microservice for a music streaming platform, focusing on GDPR compliance and safeguarding user passwords through encryption"
                     tech="Developed with Java, SQL and REST API integration"
                     linkText="View Report"
                     linkUrl={sem3} // PDF

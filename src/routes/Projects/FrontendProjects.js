@@ -20,7 +20,7 @@ const FrontendProjects = () => {
             <div className="row">
                 <ProjectCard
                     title="Car Rental App - School Group Project"
-                    description="A React-based application for managing car rentals"
+                    description="A React-based app for managing car rentals"
                     tech="Developed with React, Typescript and Figma"
                     linkText="View Git Repository"
                     linkUrl="https://github.com/Nolle10/value-vroom"
@@ -32,7 +32,7 @@ const FrontendProjects = () => {
                 />
                 <ProjectCard
                     title="Shared Payment App - School Group Project"
-                    description="A Kotlin-based application for managing shared expenses"
+                    description="A Kotlin-based app for managing shared expenses"
                     tech="Developed with Kotlin and Figma"
                     linkText="View Git Repository"
                     linkUrl="https://github.com/frmad/XPence-kotlin"
@@ -42,7 +42,7 @@ const FrontendProjects = () => {
                     video={xpenceVideo}
                 />
                 <ProjectCard
-                    title="Calorie Tracking App - School Group Project"
+                    title="Calorie Tracking App - Bachelor Group Project"
                     description="A React-based app for tracking calorie intake"
                     tech="Developed with React, Typescript and Figma"
                     linkText="View Git Repository"
@@ -104,7 +104,7 @@ const FrontendProjects = () => {
                     imageUrl={parallaxglass}
                 />
                 <ProjectCard
-                    title="BootstrapKickstart"
+                    title="Bootstrap starter project"
                     description="Project for understanding the fundamentals of Bootstrap."
                     tech="Built using HTML, CSS and Bootstrap"
                     linkText="View Git Repository"
