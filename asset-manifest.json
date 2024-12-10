@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FrejaMadsen/static/css/main.d2763944.css",
-    "main.js": "/FrejaMadsen/static/js/main.6feb01bd.js",
+    "main.js": "/FrejaMadsen/static/js/main.59850b48.js",
     "static/js/453.bcbd48ea.chunk.js": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js",
     "static/media/XRecorder_Edited_30102023_152434 (1).mp4": "/FrejaMadsen/static/media/XRecorder_Edited_30102023_152434 (1).a2cd4d0066b3ea36d7b6.mp4",
     "static/media/XRecorder_Edited_08012024_163630 (1).mp4": "/FrejaMadsen/static/media/XRecorder_Edited_08012024_163630 (1).d9ab0804943d690e0428.mp4",
@@ -14,7 +14,6 @@
     "static/media/Bachelor.png": "/FrejaMadsen/static/media/Bachelor.87684e47fd005cf65edd.png",
     "static/media/Xpence-LO-FI.png": "/FrejaMadsen/static/media/Xpence-LO-FI.a9cb11be5972c99805de.png",
     "static/media/parallax-glass.png": "/FrejaMadsen/static/media/parallax-glass.36cf1c981f62b7fac6c7.png",
-    "static/media/Vroom-LO-FI.png": "/FrejaMadsen/static/media/Vroom-LO-FI.ac6f2a028cc2b612423d.png",
     "static/media/solarsystem.png": "/FrejaMadsen/static/media/solarsystem.3df9ef40e18dc52e8dc6.png",
     "static/media/CV2024.pdf": "/FrejaMadsen/static/media/CV2024.471930d51f50d7e3776d.pdf",
     "static/media/butterflyProject.png": "/FrejaMadsen/static/media/butterflyProject.45d727fc2c62cb199a6a.png",
@@ -23,11 +22,11 @@
     "static/media/mig4.jpg": "/FrejaMadsen/static/media/mig4.5ecc981fb84a29e84deb.jpg",
     "index.html": "/FrejaMadsen/index.html",
     "main.d2763944.css.map": "/FrejaMadsen/static/css/main.d2763944.css.map",
-    "main.6feb01bd.js.map": "/FrejaMadsen/static/js/main.6feb01bd.js.map",
+    "main.59850b48.js.map": "/FrejaMadsen/static/js/main.59850b48.js.map",
     "453.bcbd48ea.chunk.js.map": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2763944.css",
-    "static/js/main.6feb01bd.js"
+    "static/js/main.59850b48.js"
   ]
 }
