@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FrejaMadsen/static/css/main.d2763944.css",
-    "main.js": "/FrejaMadsen/static/js/main.29862c5c.js",
+    "main.js": "/FrejaMadsen/static/js/main.6feb01bd.js",
     "static/js/453.bcbd48ea.chunk.js": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js",
     "static/media/XRecorder_Edited_30102023_152434 (1).mp4": "/FrejaMadsen/static/media/XRecorder_Edited_30102023_152434 (1).a2cd4d0066b3ea36d7b6.mp4",
     "static/media/XRecorder_Edited_08012024_163630 (1).mp4": "/FrejaMadsen/static/media/XRecorder_Edited_08012024_163630 (1).d9ab0804943d690e0428.mp4",
@@ -23,11 +23,11 @@
     "static/media/mig4.jpg": "/FrejaMadsen/static/media/mig4.5ecc981fb84a29e84deb.jpg",
     "index.html": "/FrejaMadsen/index.html",
     "main.d2763944.css.map": "/FrejaMadsen/static/css/main.d2763944.css.map",
-    "main.29862c5c.js.map": "/FrejaMadsen/static/js/main.29862c5c.js.map",
+    "main.6feb01bd.js.map": "/FrejaMadsen/static/js/main.6feb01bd.js.map",
     "453.bcbd48ea.chunk.js.map": "/FrejaMadsen/static/js/453.bcbd48ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2763944.css",
-    "static/js/main.29862c5c.js"
+    "static/js/main.6feb01bd.js"
   ]
 }
