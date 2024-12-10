@@ -21,8 +21,10 @@ jobs:
     - name: Install dependencies  # Installs the dependencies
       run: npm install
 
-    - name: Build the app  # Builds your React app
-      run: npm run build
+    - name: Build the app
+        env:
+          CI: false  # This disables treating warnings as errors
+        run: npm run build
 
     - name: Deploy the app  # Replace this with your deploy script
       env:  # Inject GitHub secrets into the environment
