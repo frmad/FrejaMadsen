@@ -13,7 +13,7 @@ const ProjectCard = ({ title, description, tech, linkText, linkUrl, external, im
         <div className="column">
             <div className={`card ${expanded ? 'expanded' : ''}`} onClick={toggleExpanded}>
                 <h3 className="card-title">{title}</h3>
-                {imageUrl && <img src={imageUrl} alt={`Image for ${title}`} className="card-image"/>}
+                {imageUrl && <img src={imageUrl} alt={`Preview image for the project ${title}`} className="card-image"/>}
                 <p className="card-description">{description}</p>
                 <p className="card-tech">{tech}</p>
                 <div className="project-links">

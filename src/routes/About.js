@@ -11,14 +11,14 @@ function About() {
             <Wave/>
             <div className="flex" style={{position: 'relative'}}> {/* Make this container relative */}
                 <div className="right">
-                    <img src={migImage} alt="Picture of me" className="mig-image-ny"/>
+                    <img src={migImage} alt="Profile picture of Freja Marie Madsen" className="mig-image-ny"/>
                     <h4>Freja Marie Madsen</h4>
                     <h5>Software developer</h5>
                 </div>
 
                 <div className="circle-div-first">
                     <div className="circle">
-                        <img src={diploma} alt="Diploma icon" className="about-icon-diploma"/>
+                        <img src={diploma} alt="Icon representing my diploma" className="about-icon-diploma"/>
                     </div>
                     <p>
                         Bachelor's Degree in Software Engineering from the University of Southern Denmark (SDU).
@@ -29,7 +29,7 @@ function About() {
 
                 <div className="circle-div-second">
                     <div className="circle">
-                        <img src={work} alt="Work icon" className="about-icon"/>
+                        <img src={work} alt="Icon representing my work experience" className="about-icon"/>
                     </div>
                     <p>
                         Diverse work experience in customer service and IT roles, where I developed strong

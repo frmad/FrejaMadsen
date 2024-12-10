@@ -2,7 +2,6 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import bachelor from '../../figmaimages/Bachelor.png';
 import healthHifi from '../../figmaimages/Health-HI-FI.png';
-import vroomLofi from '../../figmaimages/Vroom-LO-FI.png';
 import vroomHifi from '../../figmaimages/Vroom-HI-FI.png';
 import xpenceLofi from '../../figmaimages/Xpence-LO-FI.png';
 import xpenceVideo from '../Projects/video/XRecorder_Edited_08012024_163630 (1).mp4';

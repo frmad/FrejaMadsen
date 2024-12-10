@@ -3,8 +3,8 @@ import Wave from '../routes/Elements/Wave';
 import '../css/Courses.css';
 
 function Courses() {
-    const [progressAngular, setProgressAngular] = useState(10);
-    const [progressReact, setProgressReact] = useState(10);
+    const [progressAngular] = useState(10);
+    const [progressReact] = useState(10);
 
     return (
         <div>
