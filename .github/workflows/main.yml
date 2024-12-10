@@ -1,0 +1,33 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the 'main' branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # This sets the environment for the action (Ubuntu in this case)
+
+    steps:
+    - name: Checkout code  # This checks out your repository's code so GitHub can work with it
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js  # Set up Node.js environment to run the app
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'  # You can use the Node.js version that fits your project
+
+    - name: Install dependencies  # Installs the dependencies
+      run: npm install
+
+    - name: Build the app  # Builds your React app
+      run: npm run build
+
+    - name: Deploy the app  # Replace this with your deploy script
+      env:  # Inject GitHub secrets into the environment
+        REACT_APP_EMAILJS_SERVICE: ${{ secrets.REACT_APP_EMAILJS_SERVICE }}
+        REACT_APP_EMAILJS_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_TEMPLATE }}
+        REACT_APP_EMAILJS_KEY: ${{ secrets.REACT_APP_EMAILJS_KEY }}
+      run: |
+        npm run deploy  # Replace this with the actual deployment command
