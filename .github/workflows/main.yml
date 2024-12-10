@@ -17,7 +17,6 @@ jobs:
       run: |
         git config --global user.email "frejamadsen1408@gmail.com"
         git config --global user.name "frmad"
-  
 
     - name: Set up Node.js
       uses: actions/setup-node@v2
@@ -28,14 +27,15 @@ jobs:
       run: npm install
 
     - name: Disable ESLint warnings
-      run: echo "CI=false" >> .env  # Sikrer, at advarsler ikke stopper build-processen
+      run: echo "CI=false" >> .env
 
     - name: Build the app
-      run: npm run build  # Dette kører build direkte uden for predeploy
-
+      run: npm run build
+    
     - name: Deploy the app to GitHub Pages
-      run: npm run deploy  # Bruger gh-pages til deployment
+      run: npm run deploy
       env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Reference the secret here
         REACT_APP_EMAILJS_SERVICE: ${{ secrets.REACT_APP_EMAILJS_SERVICE }}
         REACT_APP_EMAILJS_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_TEMPLATE }}
         REACT_APP_EMAILJS_KEY: ${{ secrets.REACT_APP_EMAILJS_KEY }}
