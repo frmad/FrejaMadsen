@@ -34,7 +34,9 @@ jobs:
     
     - name: Deploy the app to GitHub Pages
       run: |
-        git remote set-url origin https://github.com/${{ github.repository }}.git
+        # Set up Git credentials using the GH_TOKEN secret
+        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
+        # Run the deploy command using gh-pages
         npm run deploy
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Reference the secret here
