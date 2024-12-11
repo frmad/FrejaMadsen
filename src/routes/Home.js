@@ -35,14 +35,7 @@ function Home() {
                     <div className="text-content">
                         <h2 className="homeTitle">Welcome to My Portfolio!</h2>
                         <p className="intro-text">
-                            {/*Hello and welcome! I'm a energetic, engaged, and structured 23-year-old front-end
-                            developer with experience in service, software development,
-                            and communication. Passionate about web development, project management,
-                            and customer relations. Adept at working independently while excelling in collaborative
-                            environments. Driven by curiosity and a strong desire for continuous
-                            personal and professional growth, always focused on refining and enhancing
-                            my skill set.*/}
-                            Hello and welcome! I'm a curious and adventurous 23-year-old front-end developer with a passion for exploring new horizons and gaining fresh experiences. Always eager to learn and grow, I find joy in discovering new things and embracing new challenges. My motivation comes from a deep curiosity and a desire to continuously evolve, both personally and professionally. Whether it’s delving into new technologies or seeking out new adventures, I’m always driven by a sense of wonder and excitement.
+                            Hello and welcome to my portfolio website! I’m Freja, a 23-year-old front-end developer who loves exploring and trying new things. I’m always curious and excited to learn, whether it’s about new technologies or life in general. I enjoy stepping outside my comfort zone and taking on challenges that help me grow, both as a person and in my career. For me, it’s all about staying curious, learning, and having fun along the way.
                         </p>
 
                         <a href={resume} download="Freja-resume" className="resume-link">
@@ -67,108 +60,36 @@ function Home() {
                 <p>
                     In this section, you'll find further insights into my skills and interest.
                 </p>
-                {/*<div className="flex-container">
-                    <div>
-                        <h4>Problem Solving</h4>
-                        <p>I like environments where creative problem solving is crucial.
-                            My background in software engineering has given me the tools to approach
-                            complex technical challenges with innovative thinking.
-                            Whether it's developing a new feature, troubleshooting issues,
-                            or optimizing performance, I find satisfaction
-                            in crafting practical and effective solutions.</p>
-                    </div>
-
-                    <div>
-                        <h4>Project Management</h4>
-                        <p>Project management is one of my main interests. During my studies in Software Engineering, I
-                            discovered how much I enjoy organizing and leading projects. Coordinating tasks, setting
-                            goals, and collaborating with teams to achieve results is something I find incredibly
-                            exciting. My coursework in project management has equipped me with the skills to effectively
-                            manage teams and track projects. I thrive on the challenge of keeping projects on track and
-                            ensuring everything runs smoothly, and I am eager to pursue a career where I can apply and
-                            develop these skills further.</p>
-                    </div>
-
-                    <div>
-                        <h4>Continuous Learning and Development</h4>
-                        <p>Continuous learning is a core part of my personal and professional growth. I am passionate
-                            about exploring new technologies, tools, and techniques to continually expand my skill set.
-                            This commitment to learning allows me to approach challenges with fresh perspectives and
-                            innovative solutions, enhancing my ability to contribute effectively to any team or
-                            project.</p>
-                    </div>
-
-                    <div>
-                        <h4>Frontend Development</h4>
-                        <p>Based on my education, I have gained experience in frontend development, which has evolved
-                            into a growing passion of mine.
-                            I thoroughly enjoy exploring new design tools and learning how to create visually appealing
-                            and user-friendly interfaces.
-                            My education has provided me with hands-on experience with tools like Figma for wireframing
-                            and has given me a solid foundation in design principles.
-                            I’m always eager to enhance my skills and study best practices in frontend development, as I
-                            find the blend of creativity and technology incredibly rewarding.</p>
-                    </div>
-
-                    <div>
-                        <h4>Customer and User Interaction</h4>
-                        <p>With over six years of experience in customer service, including working in a mini-golf shop
-                            and providing direct support to customers, I have developed strong skills in managing
-                            customer relationships and addressing their needs. This hands-on experience has enhanced my
-                            communication abilities and fostered an empathetic approach to problem-solving.
-                            Additionally, my student job at SDU CRM Group involved engaging with users, which further
-                            refined my capacity to understand and meet client requirements. These experiences have
-                            equipped me with a solid foundation in customer service and user communication, enabling me
-                            to build positive relationships and deliver exceptional service.</p>
-                    </div>
-
-                    <div>
-                        <h4>Ongoing Development in Frontend Skills</h4>
-                        <p>I am actively working on enhancing my frontend development skills, with a particular focus on
-                            JavaScript. I am dedicating time to deepen my understanding of JavaScript, exploring
-                            advanced techniques, and applying best practices to improve my coding knowledge.
-                            Additionally, I am committed to refining my UX/UI design skills to create more intuitive and
-                            engaging user experiences. To further expand my expertise, I am also delving into 3D
-                            graphics with libraries such as Three.js. This ongoing learning journey reflects my
-                            dedication to honing my skills in frontend development and delivering innovative
-                            solutions.</p>
-                    </div>
-                </div>*/}
 
                 <div className="flex-container">
                     <ExpandableSection 
                         title="Problem Solving" 
-                        content="I like environments where creative problem solving is crucial.
-                                My background in software engineering has given me the tools to approach
-                                complex technical challenges with innovative thinking.
-                                Whether it's developing a new feature, troubleshooting issues,
-                                or optimizing performance, I find satisfaction
-                                in crafting practical and effective solutions."
+                        content="I enjoy working in situations where creative problem-solving is key. My background in software engineering helps me tackle tricky technical challenges with fresh ideas. Whether it’s building a new feature, fixing bugs, or making things run better, I love coming up with smart and useful solutions."
                         maxLength={80}
                     />
                     <ExpandableSection 
                         title="Project Management" 
-                        content="Project management is one of my main interests. During my studies in Software Engineering, I discovered how much I enjoy organizing and leading projects. Coordinating tasks, setting goals, and collaborating with teams to achieve results is something I find incredibly exciting. My coursework in project management has equipped me with the skills to effectively manage teams and track projects. I thrive on the challenge of keeping projects on track and ensuring everything runs smoothly, and I am eager to pursue a career where I can apply and develop these skills further."
+                        content="I’m really interested in project management. While studying Software Engineering, I realized how much I enjoy planning and leading projects. I love organizing tasks, setting goals, and working with teams to get things done. My classes in project management have taught me how to manage teams and keep track of progress effectively. I enjoy the challenge of keeping projects running smoothly and on schedule, and I’m excited to build a career where I can keep improving and using these skills."
                         maxLength={80}
                     />
                     <ExpandableSection 
                         title="Continuous Learning and Development" 
-                        content="Continuous learning is a core part of my personal and professional growth. I am passionate about exploring new technologies, tools, and techniques to continually expand my skill set. This commitment to learning allows me to approach challenges with fresh perspectives and innovative solutions, enhancing my ability to contribute effectively to any team or project."
+                        content="I’m all about learning and growing, both personally and professionally. I enjoy exploring new technologies, tools, and techniques to keep building my skills."
                         maxLength={80}
                     />
                     <ExpandableSection 
                         title="Frontend Development" 
-                        content="Based on my education, I have gained experience in frontend development, which has evolved into a growing passion of mine. I thoroughly enjoy exploring new design tools and learning how to create visually appealing and user-friendly interfaces. My education has provided me with hands-on experience with tools like Figma for wireframing and has given me a solid foundation in design principles. I’m always eager to enhance my skills and study best practices in frontend development, as I find the blend of creativity and technology incredibly rewarding."
+                        content="Through my education, I’ve gained experience in front-end development, and it’s become a true passion of mine. I really enjoy designing and figuring out how to build applications that are both visually appealing and easy to use. I’ve worked with Figma for wireframing and have learned the fundamentals of good design. This combination of creativity and technology is something I really enjoy."
                         maxLength={80}
                     />
                     <ExpandableSection 
                         title="Customer and User Interaction" 
-                        content="With over six years of experience in customer service, including working in a mini-golf shop and providing direct support to customers, I have developed strong skills in managing customer relationships and addressing their needs. This hands-on experience has enhanced my communication abilities and fostered an empathetic approach to problem-solving. Additionally, my student job at SDU CRM Group involved engaging with users, which further refined my capacity to understand and meet client requirements. These experiences have equipped me with a solid foundation in customer service and user communication, enabling me to build positive relationships and deliver exceptional service."
+                        content="With more than six years of experience in customer service, I’ve built some strong skills in managing customer relationships and addressing customer needs. This hands-on experience has improved my communication, helped me become more understanding, and sharpened my focus on fulfilling customers' needs. I also worked at SDU CRM Group in a student role, where I collaborated closely with users, further enhancing my ability to meet client needs. These experiences have given me a solid foundation in customer service and user communication, enabling me to build positive relationships and provide excellent service."
                         maxLength={80}
                     />
                     <ExpandableSection 
                         title="Ongoing Development in Frontend Skills" 
-                        content="I am actively working on enhancing my frontend development skills, with a particular focus on JavaScript. I am dedicating time to deepen my understanding of JavaScript, exploring advanced techniques, and applying best practices to improve my coding knowledge. Additionally, I am committed to refining my UX/UI design skills to create more intuitive and engaging user experiences. To further expand my expertise, I am also delving into 3D graphics with libraries such as Three.js. This ongoing learning journey reflects my dedication to honing my skills in frontend development and delivering innovative solutions."
+                        content="I'm currently working on improving my frontend development skills, especially in JavaScript. I’m focusing on learning more advanced techniques and best practices to boost my coding abilities. I’m also putting time into refining my UX/UI design skills to create better, more user-friendly experiences. On top of that, I’m exploring 3D graphics with libraries like Three.js to expand my knowledge even further. This ongoing learning is all part of my goal to get better at frontend development and create innovative solutions. "
                         maxLength={80}
                     />
                 </div>

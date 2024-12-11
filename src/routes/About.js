@@ -48,7 +48,7 @@ function About() {
                     <div className="left-blob">
                         <div className="blob-ny">
 
-                            <p className="blob-text"><span>Mail:</span> frejamadsen1408@gmail.com</p>
+                            <p className="blob-text"><span>Mail:</span> {process.env.REACT_APP_EMAIL}</p>
 
                         </div>
                     </div>
@@ -92,7 +92,7 @@ function About() {
 
                     <div className="right-blob">
                         <div className="blob-ny-with-rotation">
-                            <p className="blob-text-with-rotation"><span>Tel:</span> 21854409</p>
+                            <p className="blob-text-with-rotation"><span>Tel:</span> {process.env.REACT_APP_PHONE}</p>
                         </div>
                     </div>
                 </p>

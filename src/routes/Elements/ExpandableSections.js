@@ -6,9 +6,11 @@ const ExpandableSection = ({ title, content, maxLength}) => {
     const toggleSection = () => {
         setIsOpen(!isOpen);
     };
+
     const displayContent = isOpen ? content : content.length > maxLength /*show content for false and some for true*/
         ? content.substring(0, maxLength) + '...' : content; /*show some text and ... for false and whole content for true*/
-    return (
+    
+        return (
         <div className="card">
             <div className="card-content">
             <h2>{title}</h2>
