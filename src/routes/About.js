@@ -1,9 +1,9 @@
 import React from 'react';
 import '../css/About.css';
-import migImage from '../images/mig4.jpg';
+import migImage from '../assets/images/mig4.jpg';
 import Wave from '../routes/Elements/Wave';
-import diploma from '../icons/diploma.png';
-import work from '../icons/business.png';
+import diploma from '../assets/icons/diploma.png';
+import work from '../assets/icons/business.png';
 
 function About() {
     return (

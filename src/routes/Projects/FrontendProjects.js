@@ -1,17 +1,17 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import bachelor from '../../figmaimages/Bachelor.png';
-import healthHifi from '../../figmaimages/Health-HI-FI.png';
-import vroomHifi from '../../figmaimages/Vroom-HI-FI.png';
-import xpenceLofi from '../../figmaimages/Xpence-LO-FI.png';
-import xpenceVideo from '../Projects/video/XRecorder_Edited_08012024_163630 (1).mp4';
-import vroomVideo from '../Projects/video/XRecorder_Edited_30102023_152434 (1).mp4';
-import siesta from '../../../src/figmaimages/siesta.png';
-import three_js_starter from '../../figmaimages/three-js-starter.png';
-import three_js_solar from '../../figmaimages/solarsystem.png';
-import butterfly from '../../figmaimages/butterflyProject.png';
-import parallaxglass from '../../figmaimages/parallax-glass.png';
-import bootstrapStarter from '../../figmaimages/bootsrapStarter.png';
+import bachelor from '../../assets/figmaimages/Bachelor.png';
+import healthHifi from '../../assets/figmaimages/Health-HI-FI.png';
+import vroomHifi from '../../assets/figmaimages/Vroom-HI-FI.png';
+import xpenceLofi from '../../assets/figmaimages/Xpence-LO-FI.png';
+import xpenceVideo from '../../assets/video/XRecorder_Edited_08012024_163630 (1).mp4';
+import vroomVideo from '../../assets/video/XRecorder_Edited_30102023_152434 (1).mp4';
+import siesta from '../../assets/figmaimages/siesta.png';
+import three_js_starter from '../../assets/figmaimages/three-js-starter.png';
+import three_js_solar from '../../assets/figmaimages/solarsystem.png';
+import butterfly from '../../assets/figmaimages/butterflyProject.png';
+import parallaxglass from '../../assets/figmaimages/parallax-glass.png';
+import bootstrapStarter from '../../assets/figmaimages/bootsrapStarter.png';
 
 const FrontendProjects = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Recipes.css';
 import RecipeCard from './RecipeCard';
-import lasangeImage from '../../../images/img.png';
+import lasangeImage from '../../../assets/images/img.png';
 import {Link} from "react-router-dom";
 
 
@@ -85,11 +85,11 @@ const recipes = [
             'Remove from oven and let cool on baking sheets for 5 minutes before transferring to wire racks to cool completely.'
         ]
     },
-    // Add more recipes as needed
+    
 ];
 
 const Recipes = () => {
-    const linkUrl = '/projects'; // Update with your project page URL
+    const linkUrl = '/projects'; // project page URL
     const linkText = 'Go Back';
 
     return (
