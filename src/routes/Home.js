@@ -3,7 +3,7 @@ import migImage from '../images/mig2.jpg';
 import scrollDown from '../icons/scroll.png';
 import download from '../icons/download.png';
 import '../css/Home.css';
-import resume from "../cv/CV2024.pdf";
+import resume from "../assets/cv/CV24-ny.pdf";
 import ExpandableSection from '../routes/Elements/ExpandableSections';
 
 function Home() {

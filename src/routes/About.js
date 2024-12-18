@@ -21,9 +21,7 @@ function About() {
                         <img src={diploma} alt="Icon representing my diploma" className="about-icon-diploma"/>
                     </div>
                     <p>
-                        Bachelor's Degree in Software Engineering from the University of Southern Denmark (SDU).
-                        The program focused on software design, development, and maintenance, combining theoretical
-                        knowledge with practical experience through projects.
+                        I have a Bachelor's degree in Software Engineering from the University of Southern Denmark (SDU). The program covered software design, development, and maintenance, giving me a good mix of theory and hands-on experience through various projects.
                     </p>
                 </div>
 
@@ -32,9 +30,7 @@ function About() {
                         <img src={work} alt="Icon representing my work experience" className="about-icon"/>
                     </div>
                     <p>
-                        Diverse work experience in customer service and IT roles, where I developed strong
-                        communication skills and a customer-focused mindset. Passionate about web development,
-                        I have worked on various projects that enhanced my technical abilities.
+                        I have experience in both customer service and IT roles, which have helped me build strong communication skills and a customer-oriented mindset. Furthermore, I am passionate about web and front-end development and have worked on various projects that have strengthened my technical abilities.
                     </p>
                 </div>
 
