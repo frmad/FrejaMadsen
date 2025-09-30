@@ -35,7 +35,7 @@ function Home() {
                     <div className="text-content">
                         <h2 className="homeTitle">Welcome to My Portfolio!</h2>
                         <p className="intro-text">
-                            Hello and welcome to my portfolio website! I’m Freja, a 23-year-old front-end developer who loves exploring and trying new things. I’m always curious and excited to learn, whether it’s about new technologies or life in general. I enjoy stepping outside my comfort zone and taking on challenges that help me grow, both as a person and in my career. For me, it’s all about staying curious, learning, and having fun along the way.
+                            Hello and welcome to my portfolio website! I’m Freja, a 24-year-old software developer who loves exploring and trying new things. I’m always curious and excited to learn, whether it’s about new technologies or life in general. I enjoy stepping outside my comfort zone and taking on challenges that help me grow, both as a person and in my career. For me, it’s all about staying curious, learning, and having fun along the way.
                         </p>
 
                         <a href={resume} download="Freja-resume" className="resume-link">

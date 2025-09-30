@@ -3,8 +3,10 @@ import Wave from '../routes/Elements/Wave';
 import '../css/Courses.css';
 
 function Courses() {
-    const [progressAngular] = useState(50);
+    const [progressAngular] = useState(100);
     const [progressReact] = useState(10);
+    const [progressReactIDA] = useState(100);
+    const [progressCSharp] = useState(50);
 
     return (
         <div>
@@ -34,6 +36,24 @@ function Courses() {
                         <div className="progress-bar" style={{ width: `${progressReact}%` }}></div>
                     </div>
                 </div>
+
+                <div>
+                    <h3>Frontend development in React/JavaScript</h3>
+                    <p>Course for IDA members (2025)</p>
+                    <div className="progress-box">
+                        <div className="progress-bar" style={{ width: `${progressReactIDA}%` }}></div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>C# for beginners</h3>
+                    <p>Course for IDA members (2025)</p>
+                    <div className="progress-box">
+                        <div className="progress-bar" style={{ width: `${progressCSharp}%` }}></div>
+                    </div>
+                </div>
+
+                {/*<h2>Online Courses</h2>*/}
             </div>
         </div>
     );

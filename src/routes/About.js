@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/About.css';
-import migImage from '../assets/images/mig4.jpg';
+import migImage from '../assets/images/Freja.jpg';
 import Wave from '../routes/Elements/Wave';
 import diploma from '../assets/icons/diploma.png';
 import work from '../assets/icons/business.png';
@@ -9,7 +9,7 @@ function About() {
     return (
         <div>
             <Wave/>
-            <div className="flex" style={{position: 'relative'}}> {/* Make this container relative */}
+            <div className="flex" style={{position: 'relative'}}> 
                 <div className="right">
                     <img src={migImage} alt="Freja Marie Madsen" className="mig-image-ny"/>
                     <h4>Freja Marie Madsen</h4>
@@ -35,7 +35,7 @@ function About() {
                 </div>
 
                 {/*<div className="blob-ny">
-                    <p className="blob-text">Your special text here</p>
+                    <p className="blob-text">text here</p>
                 </div>*/}
             </div>
 
@@ -48,7 +48,17 @@ function About() {
 
                         </div>
                     </div>
-                    Hello, I'm Freja Marie Madsen, a 23-year-old software developer with a strong passion
+
+                    Hello! I’m Freja Marie Madsen, a 24-year-old software developer with a passion for web development, design, and continuous learning. My journey into tech began with an interest in both business and IT, leading me to pursue a Bachelor’s degree in Software Engineering from the University of Southern Denmark (SDU). This education has given me a strong foundation in programming, web design, and problem-solving.<br />
+                    <br />
+                    Throughout my studies and the projects I have contributed to, I’ve learned to develop prototypes, design intuitive interfaces, and implement features based on user requirements and feedback—gaining experience in the entire software development process from start to finish. I am particularly passionate about user experience and finding the best ways to meet user needs and expectations.<br />
+                    <br />
+                    In addition to my technical background, my customer-facing roles have helped me develop strong communication skills and a customer-first mindset. I thrive in both independent and team-based environments, bringing structure, adaptability, responsibility, and a positive approach to every challenge.<br />
+                    <br />
+                    I consider myself dedicated, goal-driven, and eager to learn. I enjoy exploring new technologies, refining my skills, and taking on challenges that push me forward—both professionally and personally.
+                    <br /><br />
+
+                    {/*Hello, I'm Freja Marie Madsen, a 23-year-old software developer with a strong passion
                     for web development, design, and personal growth. My journey into technology started
                     with a deep interest in business and IT, leading me to earn a Bachelor's degree in
                     Software Engineering from the University of Southern Denmark (SDU). This education has
@@ -81,7 +91,7 @@ function About() {
                     challenges that support both personal and professional development.<br/><br/>
 
                     If you are looking for someone who brings energy, dedication, and a versatile skill set
-                    to the table, I would love to connect. <br/><br/>
+                    to the table, I would love to connect. <br/><br/>*/}
 
                     Thank you for visiting my portfolio, and I look forward to potential opportunities to
                     collaborate. <br/><br/>

@@ -17,29 +17,27 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: stretch; /* Ensure all items stretch to the height of the tallest item */
-    margin: 0 -20px;
-    padding-right: 3%;
-    padding-left: 3%;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 
 /* Flex item styles */
 .column {
-    flex: 1 1 25%; /* Grow and shrink with equal size, starting at 25% width */
-    padding: 0 10px;
-    display: flex; /* Ensure child items are also flex items */
-    align-items: stretch; /* Make sure all columns stretch equally */
+    flex: 1 1 25%;
+    padding: 0 1px;
+    display: flex;
+    justify-content: center; /* Ensure cards are place at the center */
 }
 
 /* Card container styles */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
     background-color: #ffffff;
     border-radius: 8px; /* Optional: Add border radius for rounded corners */
     display: flex;
+    transition: transform 0.3s ease;
+    text-align: center; /* Center all content (alignment)*/
     flex-direction: column; /* Ensure items stack vertically */
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
@@ -126,3 +124,12 @@ body {
     border-radius: 9px;
     margin: 2px;
 }
+
+/* Card effects */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+

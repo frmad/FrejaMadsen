@@ -11,10 +11,12 @@ function Skills() {
             <h4 className="header">Technical Skills</h4>
             <div className="box">
                 {renderSkill("HTML", "good", "70%")}
-                {renderSkill("CSS", "good", "70%")}
+                {renderSkill("CSS", "okay", "60%")}
+                {renderSkill("Figma", "okay", "60%")}
                 {renderSkill("Java", "okay", "60%")}
                 {renderSkill("React", "know", "50%")}
                 {renderSkill("SQL", "know", "50%")}
+                {renderSkill("Framer", "know", "50%")}
                 {renderSkill("JavaScript", "notGood", "30%")}
                 {renderSkill("PHP", "notGood", "30%")}
                 {renderSkill("Python", "notGood", "30%")}
